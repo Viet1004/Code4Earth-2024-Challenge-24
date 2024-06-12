@@ -1,6 +1,10 @@
 import fitz
 import ollama
+import tabula
+import os
+from tabula.io import read_pdf
 
+# extract texts
 doc = fitz.open("example.pdf")
 for pageNumber, page in enumerate(doc.pages(), start=1):
     if pageNumber > 2 and pageNumber < 10:
@@ -8,6 +12,12 @@ for pageNumber, page in enumerate(doc.pages(), start=1):
         with open(f"texts/output_{pageNumber}.txt", "wb") as out:
             out.write(text)  # write text of page
             out.write(bytes((12,)))  # write page delimiter (form feed 0x0C)
+
+# extract tables
+tables = read_pdf("example.pdf", pages="all")# read PDF file
+os.makedirs('tables', exist_ok = True) 
+for table_idx, table in enumerate(tables):
+    table.to_csv(f"tables/output_{table_idx}.csv")
 
 
 system_promt = "You are a helpful Natural Language Processing expert who extracts relevant information and store them on a Knowledge Graph. No yapping."

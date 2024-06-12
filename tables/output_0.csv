@@ -1,0 +1,11 @@
+,Constellation name Type of orbits,Number of,Number of.1
+0,,orbital planes,satellites
+1,Real data,,
+2,No MW sounders -,0,0
+3,Metop/JPSS baseline Sun-synchronous,2,4 (Metop-A/B; S-
+4,,,"NPP, NOAA-20)"
+5,Metop/JPSS+ Sun-synchronous,5,8* (Metop-A/B; S-
+6,,,"NPP, NOAA-15/"
+7,,,"18/19/20, F-17)"
+8,"Simulated new data, added to the Metop/JPSS baseline with real data",,
+9,Polar Sun-synchronous,4,8
