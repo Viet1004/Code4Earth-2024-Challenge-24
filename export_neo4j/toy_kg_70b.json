@@ -1,0 +1,784 @@
+{
+    "nodes": [
+
+        {
+            "name": "OSEs",
+            "label": "Observation System Experiment",
+            "properties": {}
+        },
+        {
+            "name": "TM916",
+            "label": "Technical Memorandum",
+            "properties": {
+                "title": "Assessing the impact of observations"
+            }
+        },
+        {
+            "name": "FSOI",
+            "label": "Forecast Sensitivity to Observation Impact",
+            "properties": {}
+        },
+        {
+            "name": "EDA",
+            "label": "Ensemble of Data Assimilations",
+            "properties": {}
+        },
+        {
+            "name": "SAC",
+            "label": "Science Advisory Committee",
+            "properties": {}
+        },
+        {
+            "name": "ECMWF",
+            "label": "Organization",
+            "properties": {
+                "name": "European Centre for Medium-Range Weather Forecasts"
+            }
+        },
+        {
+            "name": "October_2022",
+            "label": "Date",
+            "properties": {
+                "month": "October",
+                "year": 2022
+            }
+        },
+        {
+            "name": "GOS",
+            "label": "Global Observing System",
+            "properties": {}
+        },
+        {
+            "name": "ECMWF",
+            "label": "Organization",
+            "properties": {
+                "name": "European Centre for Medium-Range Weather Forecasts"
+            }
+        },
+        {
+            "name": "SAC",
+            "label": "Science Advisory Committee",
+            "properties": {
+                "name": "Scientific Advisory Committee"
+            }
+        },
+        {
+            "name": "October_2022",
+            "label": "Date",
+            "properties": {
+                "date": "2022-10-01"
+            }
+        },
+        {
+            "name": "WMO",
+            "label": "Organization",
+            "properties": {
+                "name": "World Meteorological Organization"
+            }
+        },
+        {
+            "name": "Errico_and_Priv\u00e9",
+            "label": "2018",
+            "properties": {}
+        },
+        {
+            "name": "Tan et al. 2007",
+            "label": "Publication",
+            "properties": {}
+        },
+        {
+            "name": "Harnisch et al.",
+            "label": "2013",
+            "properties": {}
+        },
+        {
+            "name": "Technical Memorandum No. 916",
+            "label": "Technical Memorandum",
+            "properties": {
+                "number": 916,
+                "title": "Assessing the impact of observations"
+            }
+        },
+        {
+            "name": "ECMWF Strategy 2021-2030",
+            "label": "Strategy",
+            "properties": {
+                "name": "ECMWF Strategy 2021-2030"
+            }
+        },
+        {
+            "name": "NWP",
+            "label": "System",
+            "properties": {
+                "type": "Numerical Weather Prediction"
+            }
+        },
+        {
+            "name": "EDA",
+            "label": "Ensemble of Data Assimilations",
+            "properties": {}
+        },
+        {
+            "name": "IFS",
+            "label": "System",
+            "properties": {
+                "type": "Integrated Forecast System"
+            }
+        },
+        {
+            "name": "HRES",
+            "label": "System",
+            "properties": {
+                "type": "High-Resolution System"
+            }
+        },
+        {
+            "name": "GOS",
+            "label": "Global Observing System",
+            "properties": {}
+        },
+        {
+            "name": "ESA",
+            "label": "Organization",
+            "properties": {
+                "name": "European Space Agency",
+                "acronym": "ESA"
+            }
+        },
+        {
+            "name": "Tan et al.",
+            "label": "Publication",
+            "properties": {
+                "year": 2007
+            }
+        },
+        {
+            "name": "Harnisch et al.",
+            "label": "Publication",
+            "properties": {
+                "year": 2013
+            }
+        },
+        {
+            "name": "Assessing the impact of observations",
+            "label": "Publication",
+            "properties": {
+                "title": "Assessing the impact of observations"
+            }
+        },
+        {
+            "name": "Technical Memorandum No. 916",
+            "label": "Technical Memorandum",
+            "properties": {
+                "number": 916
+            }
+        },
+        {
+            "name": "Figure 1",
+            "label": "Image",
+            "properties": {
+                "description": "Standard deviation of Analysis error as a function of the number of observations"
+            }
+        },
+        {
+            "name": "Global Observing System",
+            "label": "Observation System",
+            "properties": {
+                "name": "Global Observing System"
+            }
+        },
+        {
+            "name": "Orange Line",
+            "label": "Line",
+            "properties": {
+                "description": "Denial experiment",
+                "color": "orange"
+            }
+        },
+        {
+            "name": "Green Line",
+            "label": "Line",
+            "properties": {
+                "description": "Addition experiment",
+                "color": "green"
+            }
+        },
+        {
+            "name": "Red Line",
+            "label": "Line",
+            "properties": {
+                "description": "Low baseline addition experiment",
+                "color": "red"
+            }
+        },
+        {
+            "name": "Geer",
+            "label": "2016",
+            "properties": {
+                "title": "",
+                "author": "Geer",
+                "year": 2016
+            }
+        },
+        {
+            "name": "Kelly et al.",
+            "label": "2008",
+            "properties": {}
+        },
+        {
+            "name": "Duncan et al.",
+            "label": "2021",
+            "properties": {}
+        },
+        {
+            "name": "Geer et al.",
+            "label": "2014",
+            "properties": {}
+        },
+
+        {
+            "name": "OSE",
+            "label": "Observation System Experiment",
+            "properties": {}
+        },
+        {
+            "name": "GNSS-RO",
+            "label": "Observation System",
+            "properties": {
+                "type": "limb"
+            }
+        },
+        {
+            "name": "radiosonde",
+            "label": "Observation System",
+            "properties": {
+                "type": "nadir"
+            }
+        },
+        {
+            "name": "sounder",
+            "label": "Observation System",
+            "properties": {
+                "type": "nadir"
+            }
+        },
+        {
+            "name": "Met Office NWP index",
+            "label": "Statistics",
+            "properties": {
+                "type": "single number"
+            }
+        },
+        {
+            "name": "ECMWF scorecard",
+            "label": "Statistics",
+            "properties": {
+                "type": "visual table"
+            }
+        },
+        {
+            "name": "Z500",
+            "label": "Measurement",
+            "properties": {
+                "description": "error in the 500 hPa geopotential height",
+                "range": "medium-range"
+            }
+        },
+        {
+            "name": "Geer",
+            "label": "Author",
+            "properties": {
+                "year": 2016
+            }
+        },
+        {
+            "name": "Duncan et al.",
+            "label": "Authors",
+            "properties": {
+                "year": 2021
+            }
+        },
+
+        {
+            "name": "research department",
+            "label": "Organization",
+            "properties": {
+                "name": "Research Department"
+            }
+        },
+        {
+            "name": "background departures",
+            "label": "Statistics",
+            "properties": {
+                "type": "background departures"
+            }
+        },
+        {
+            "name": "global observing system",
+            "label": "Global Observing System",
+            "properties": {
+                "name": "Global Observing System"
+            }
+        },
+        {
+            "name": "satellite radiances",
+            "label": "Measurement",
+            "properties": {
+                "type": "satellite radiances"
+            }
+        },
+        {
+            "name": "bending angles",
+            "label": "Measurement",
+            "properties": {
+                "type": "bending angles"
+            }
+        },
+        {
+            "name": "radiosonde temperature",
+            "label": "Measurement",
+            "properties": {
+                "type": "radiosonde temperature"
+            }
+        },
+        {
+            "name": "surface pressure",
+            "label": "Measurement",
+            "properties": {
+                "type": "surface pressure"
+            }
+        },
+        {
+            "name": "operational HRES analysis",
+            "label": "Analysis",
+            "properties": {
+                "name": "Operational HRES Analysis"
+            }
+        },
+        {
+            "name": "experiments own analysis",
+            "label": "Analysis",
+            "properties": {
+                "name": "Experiment's Own Analysis"
+            }
+        },
+        {
+            "name": "Geer et al.",
+            "label": "Authors",
+            "properties": {
+                "name": "Geer et al."
+            }
+        },
+        {
+            "name": "Bouttier and Kelly",
+            "label": "Authors",
+            "properties": {
+                "name": "Bouttier and Kelly"
+            }
+        },
+        {
+            "name": "Geer and Bauer",
+            "label": "Authors",
+            "properties": {
+                "name": "Geer and Bauer"
+            }
+        },
+
+        {
+            "name": "Figure2",
+            "label": "Image",
+            "properties": {
+                "description": "Operational analysis used in verification"
+            }
+        },
+        {
+            "name": "HRES",
+            "label": "System",
+            "properties": {
+                "type": "operational HRES analysis"
+            }
+        },
+        {
+            "name": "EDA",
+            "label": "Ensemble of Data Assimilations",
+            "properties": {}
+        },
+        {
+            "name": "Geer2016",
+            "label": "Publication",
+            "properties": {
+                "author": "Geer",
+                "year": 2016
+            }
+        },
+        {
+            "name": "Lawrence2019",
+            "label": "Publication",
+            "properties": {
+                "author": "Lawrence et al.",
+                "year": 2019
+            }
+        },
+        {
+            "name": "Bormann2019",
+            "label": "Publication",
+            "properties": {
+                "author": "Bormann et al.",
+                "year": 2019
+            }
+        },
+        {
+            "name": "RMSE",
+            "label": "Statistics",
+            "properties": {}
+        },
+        {
+            "name": "NorthernExtratropics",
+            "label": "Region",
+            "properties": {
+                "description": "location of wind forecast error"
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "start": "TM916",
+            "end": "OSEs",
+            "type": "reviews",
+            "properties": {}
+        },
+        {
+            "start": "TM916",
+            "end": "FSOI",
+            "type": "reviews",
+            "properties": {}
+        },
+        {
+            "start": "ECMWF",
+            "end": "EDA",
+            "type": "introduced",
+            "properties": {
+                "year": 2007
+            }
+        },
+        {
+            "start": "SAC",
+            "end": "TM916",
+            "type": "received",
+            "properties": {
+                "month": "October",
+                "year": 2022
+            }
+        },
+        {
+            "start": "TM916",
+            "end": "EDA",
+            "type": "discusses",
+            "properties": {}
+        },
+        {
+            "start": "ECMWF",
+            "end": "Technical Memorandum No. 916",
+            "type": "published",
+            "properties": {}
+        },
+        {
+            "start": "SAC",
+            "end": "Technical Memorandum No. 916",
+            "type": "received",
+            "properties": {
+                "date": "October 2022"
+            }
+        },
+        {
+            "start": "ECMWF",
+            "end": "Strategy",
+            "type": "has",
+            "properties": {
+                "name": "ECMWF Strategy 2021-2030"
+            }
+        },
+        {
+            "start": "WMO",
+            "end": "ECMWF",
+            "type": "collaborates with",
+            "properties": {}
+        },
+        {
+            "start": "Errico and Priv\u00e9",
+            "end": "cites",
+            "type": "2018",
+            "properties": {}
+        },
+        {
+            "start": "Harnisch et al.",
+            "end": "builds upon",
+            "type": "2013",
+            "properties": {}
+        },
+        {
+            "start": "SAC",
+            "end": "ECMWF",
+            "type": "supports",
+            "properties": {
+                "role": "active role in the preparation for future satellites"
+            }
+        },
+        {
+            "start": "TM916",
+            "end": "NWP",
+            "type": "describes",
+            "properties": {}
+        },
+        {
+            "start": "EDA",
+            "end": "IFS",
+            "type": "used in",
+            "properties": {}
+        },
+        {
+            "start": "EDA",
+            "end": "HRES",
+            "type": "contribute to",
+            "properties": {}
+        },
+        {
+            "start": "GOS",
+            "end": "OSE",
+            "type": "evolves based on",
+            "properties": {}
+        },
+        {
+            "start": "ESA",
+            "end": "Tan et al.",
+            "type": "funded",
+            "properties": {}
+        },
+        {
+            "start": "ESA",
+            "end": "Harnisch et al.",
+            "type": "funded",
+            "properties": {}
+        },
+        {
+            "start": "OSE",
+            "end": "NWP",
+            "type": "used for",
+            "properties": {}
+        },
+        {
+            "start": "FSOI",
+            "end": "NWP",
+            "type": "used for",
+            "properties": {}
+        },
+        {
+            "start": "Assessing the impact of observations",
+            "end": "Technical Memorandum No. 916",
+            "type": "includes",
+            "properties": {}
+        },
+        {
+            "start": "Technical Memorandum No. 916",
+            "end": "Figure 1",
+            "type": "features",
+            "properties": {}
+        },
+        {
+            "start": "Global Observing System",
+            "end": "Assessing the impact of observations",
+            "type": "is subject of",
+            "properties": {}
+        },
+        {
+            "start": "Orange Line",
+            "end": "Denial experiment",
+            "type": "represents",
+            "properties": {}
+        },
+        {
+            "start": "Green Line",
+            "end": "Addition experiment",
+            "type": "represents",
+            "properties": {}
+        },
+        {
+            "start": "Red Line",
+            "end": "Low baseline addition experiment",
+            "type": "represents",
+            "properties": {}
+        },
+        {
+            "start": "Geer",
+            "end": "cited in",
+            "type": "2016",
+            "properties": {}
+        },
+        {
+            "start": "Kelly et al.",
+            "end": "cited in",
+            "type": "2008",
+            "properties": {}
+        },
+        {
+            "start": "Duncan et al.",
+            "end": "cited in",
+            "type": "2021",
+            "properties": {}
+        },
+        {
+            "start": "Geer et al.",
+            "end": "cited in",
+            "type": "2014",
+            "properties": {}
+        },
+        {
+            "start": "TM916",
+            "end": "OSE",
+            "type": "describes",
+            "properties": {}
+        },
+        {
+            "start": "GNSS-RO",
+            "end": "Observation System",
+            "type": "is type of",
+            "properties": {}
+        },
+        {
+            "start": "radiosonde",
+            "end": "Observation System",
+            "type": "is type of",
+            "properties": {}
+        },
+        {
+            "start": "sounder",
+            "end": "Observation System",
+            "type": "is type of",
+            "properties": {}
+        },
+        {
+            "start": "Met Office NWP index",
+            "end": "Forecast Skill",
+            "type": "measures",
+            "properties": {}
+        },
+        {
+            "start": "ECMWF scorecard",
+            "end": "Forecast Skill",
+            "type": "measures",
+            "properties": {}
+        },
+        {
+            "start": "Z500",
+            "end": "Medium-Range Forecasting",
+            "type": "measures",
+            "properties": {}
+        },
+        {
+            "start": "Geer",
+            "end": "Publication",
+            "type": "authored",
+            "properties": {
+                "year": 2016
+            }
+        },
+        {
+            "start": "Duncan et al.",
+            "end": "Publication",
+            "type": "authored",
+            "properties": {
+                "year": 2021
+            }
+        },
+        {
+            "start": "research department",
+            "end": "background departures",
+            "type": "uses",
+            "properties": {}
+        },
+        {
+            "start": "global observing system",
+            "end": "background departures",
+            "type": "computes",
+            "properties": {}
+        },
+        {
+            "start": "operational HRES analysis",
+            "end": "verification",
+            "type": "is used for",
+            "properties": {
+                "type": "forecast error verification"
+            }
+        },
+        {
+            "start": "experiments own analysis",
+            "end": "verification",
+            "type": "is used for",
+            "properties": {
+                "type": "forecast error verification"
+            }
+        },
+        {
+            "start": "Geer et al.",
+            "end": "2010",
+            "type": "published in",
+            "properties": {}
+        },
+        {
+            "start": "Bouttier and Kelly",
+            "end": "2001",
+            "type": "published in",
+            "properties": {}
+        },
+        {
+            "start": "Geer and Bauer",
+            "end": "2010",
+            "type": "published in",
+            "properties": {}
+        },
+        {
+            "start": "TM916",
+            "end": "Figure2",
+            "type": "includes",
+            "properties": {}
+        },
+        {
+            "start": "HRES",
+            "end": "Figure2",
+            "type": "used_in",
+            "properties": {}
+        },
+        {
+            "start": "EDA",
+            "end": "HRES",
+            "type": "compared_to",
+            "properties": {}
+        },
+        {
+            "start": "Geer2016",
+            "end": "TM916",
+            "type": "cited_by",
+            "properties": {}
+        },
+        {
+            "start": "Lawrence2019",
+            "end": "TM916",
+            "type": "cited_by",
+            "properties": {}
+        },
+        {
+            "start": "Bormann2019",
+            "end": "TM916",
+            "type": "cited_by",
+            "properties": {
+                "figure": "Figure 3"
+            }
+        },
+        {
+            "start": "RMSE",
+            "end": "NorthernExtratropics",
+            "type": "measured_in",
+            "properties": {}
+        }
+    ]
+}
