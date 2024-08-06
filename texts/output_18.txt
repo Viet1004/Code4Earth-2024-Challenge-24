@@ -1,0 +1,35 @@
+Assessing the impact of observations 
+ 
+ 
+18 
+Technical Memorandum No. 916 
+ 
+Clearly, the EDA must provide a theoretical estimate of the uncertainty reduction because the simulated 
+measurements can reduce the spread values without improving the estimate of the atmospheric state. However, 
+it will be demonstrated that real and simulated COSMIC-2 measurements produce very similar spread 
+reductions in the EDA (Section 4.3.1). The key requirements are producing simulated observations with 
+realistic short-range forecast departure statistics (o-b), and using an accurate estimate of the observation error 
+covariance matrix, R (Linearity assumptions can break down if an inappropriate R matrix is used in the EDA).  
+As the EDA is a cycling system, it estimates the accumulated impact from both the previous and the latest 
+observations. The cycling also means we can estimate the impact of mass measurements on the wind field, for 
+example how the GNSS-RO or microwave sounder measurements impact the tropical wind uncertainty 
+estimates. This is not possible in a 1D-Var study. 
+4.1.2. 
+Relationship to OSSEs 
+There are obviously many computational and technical differences with OSSEs, and we do not discuss OSSEs 
+in detail here (see, Errico and Privé, 2018).  However, a key difference is that OSSEs can provide direct 
+estimates of analysis and forecast error vectors, 𝛆𝐚and 𝛆𝐟, respectively. This is because the true state is defined 
+by the nature run. In OSSEs, covariance matrices, like A and B, can then be computed from the statistics of 
+these error vectors. In contrast, the EDA is a cycling, error propagation model that attempts to estimate the A 
+and B matrices directly, without reference to a true state. 
+OSSEs are computationally expensive when compared to the EDA, but it can be argued that they should 
+potentially provide a more comprehensive assessment of the observation impact. We would argue that having 
+access to both EDA and OSSEs when assessing a new observation should be beneficial, because the impact 
+will differ from system to system. On the interpretation of OSSEs, Errico and Privé (2018) make many of the 
+same points made in Section 2 for OSEs. In particular, they note that OSSEs provide statistical information on 
+the observation impact. The impact of the new observations when added to the full observing system may be 
+“modest”, but using a reduced observing system will provide misleading results. Case studies from OSSEs do 
+not generally provide robust statistics from which to draw confident conclusions. “Legitimate” OSSEs are 
+unlikely to provide “extraordinary impacts”, and decision makers should have reasonable expectations about 
+the new data.   
+

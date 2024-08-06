@@ -1,0 +1,36 @@
+Assessing the impact of observations 
+ 
+ 
+ 
+Technical Memorandum No. 916  
+ 
+ 
+ 
+3 
+Abstract 
+ 
+We review the assessment of existing observations with Observing System Experiments (OSEs) and the 
+Forecast Sensitivity to Observation Impact (FSOI) approach. Although care is needed when interpreting their 
+results, the information they provide is largely consistent. The Ensemble of Data Assimilations (EDA) provides 
+an affordable and manageable framework for simulating the impact of future observing systems. Recent 
+experience comparing EDA predictions with the subsequent impact of real measurements gives us some 
+confidence that, with appropriate interpretation and care, they provide useful information that can help guide 
+the future evolution of the global observing system. 
+Plain Language Summary 
+ 
+This “Special Topic Paper” was originally presented to the ECMWF Science Advisory Committee (SAC) in 
+October 2022. It has been reproduced here, with minor editorial changes, as an ECMWF Technical 
+Memorandum to enable broader access to the document.  
+The central question addressed in the paper is: How can we predict the potential impact of future observations 
+on the quality weather forecasts produced with numerical weather prediction systems? This is clearly 
+fundamental when trying to plan how the global observing system (GOS) should evolve, but it is extremely 
+difficult to address in practice. To provide appropriate context, this paper starts by reviewing how the impact 
+of the current, real observations is assessed, emphasising that this apparently straightforward task requires 
+considerable skill and care when interpreting the results. We then discuss the use of ensemble methods 
+introduced by ECMWF in 2007 designed to predict the impact of the future observations on theoretical 
+estimates of analysis and short-range forecast error statistics. The strengths and weaknesses of these ensemble 
+methods are discussed, and examples using both current, real and future satellite observations are presented.     
+ 
+ 
+ 
+

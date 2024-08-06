@@ -1,0 +1,34 @@
+Assessing the impact of observations 
+ 
+ 
+ 
+Technical Memorandum No. 916  
+ 
+ 
+ 
+19 
+4.1.3. 
+Method: simulation of observations used in EDA 
+ 
+Figure 8: Typical simulation system used to produce observations for the EDA computations. Note 
+that errors are added both in this simulation step and later during the EDA.  
+The EDA computations require a simulated dataset generated with a system illustrated in Figure 8. There are 
+three main steps. High quality atmospheric state information is interpolated to the observation locations. A 
+forward model maps the state information to observation space. Noise is added to the simulated data and it is 
+stored ready for assimilation alongside real data. 
+There have been differences over time in how this simulation system has been implemented at ECMWF as 
+understanding has evolved. For example, Tan et al. (2007) used Met Office short-range forecast information 
+to ensure that the (o-b) departures were realistic. Subsequent studies used operational ECMWF analyses, but 
+at higher resolution than the EDA. Harnisch et al. (2013) used a 2D bending angle operator to simulate the 
+data, but a 1D operator to assimilate it, in order to introduce a realistic forward model error. The recent 
+microwave sounder study in Section 4.4 uses the same observation operator (RTTOV-SCATT) to simulate 
+and assimilate the radiances, but with different surface emissivity information over land and sea-ice. The 
+advantages of using different forward models to simulate and assimilate the observations are not clear. 
+There are still some open questions on the importance and role of the noise added in the simulation step. We 
+have to consider whether it should include just instrument noise, E, or both instrument noise and representation 
+error, R=E+F, and how to model these. The GNSS-RO work usually adds perturbations that explicitly include 
+both components, whereas for the MW sounder work it was found that realistic background departures can be 
+achieved for the simulated observations when only instrument noise is explicitly considered, with 
+representation error arising implicitly in the observation simulations. Introducing realistic biases for observing 
+systems that are likely to require bias correction also needs some consideration. 
+

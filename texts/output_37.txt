@@ -1,0 +1,48 @@
+Assessing the impact of observations 
+ 
+ 
+ 
+Technical Memorandum No. 916  
+ 
+ 
+ 
+37 
+The EDA method for assessing new observations provides a theoretical estimate of the expected reduction in 
+analysis and short-range forecast uncertainty, as a result of assimilating the new data. This information is 
+usually averaged over large spatial scales and for periods of order a month, so the EDA results should be 
+interpreted statistically.  The EDA is less useful for quantifying the impact of the new data on specific weather 
+events or case studies. The method is similar to a 1D-Var information content study, but it is more general, 
+because it is a cycling DA system which includes the forecast model, so we are also able to estimate the impact 
+on variables that are indirectly related to the measured quantities (e.g., wind impact from MW sounders). The 
+current operational EDA is known to be under-dispersive, and this means that the absolute impact of new 
+observations is likely to be underestimated. However, future assessments of new observations will 
+automatically benefit from improvements in the operational EDA system. In addition, it is usually argued that 
+we are comparing the impact of different observation scenarios in a given set of the EDA experiments, and the 
+relative impact is important.  
+The main results from the early Aeolus (Section 4.2.1) and GNSS-RO (Section 4.2.2) EDA studies are 
+reasonably consistent with the subsequent achievements with real data. Aeolus has a good forecast impact for 
+a single instrument, for example, improving tropical stratospheric winds out to day-9 (100 hPa). The GNSS-
+RO impact on Z500 RMSE scores at short-range roughly doubled when testing COSMIC-2 and Spire (Figure 
+10). However, direct comparisons between the EDA spread reductions and improved forecast scores at short-
+range are sensitive to the choice of verifying analyses, as discussed in Section 2.1.1. We have also found that 
+some of the percentage improvements in EDA spread given in the Harnisch study are not achievable today, 
+because the global observing system has improved considerably since 2008, and the baseline “noRO” spread 
+values are now much smaller. On the key question of saturation of GNSS-RO impact, Privé et al. (2022) did 
+not see saturation when testing up to 100,000 occultations per day in OSSEs, supporting the EDA work.  
+The impact of real and simulated measurements in the EDA system has been tested and the results are very 
+encouraging from a methodology viewpoint. The direct comparison of real and simulated COSMIC-2 
+measurements in the EDA (Figure 11) suggests we can predict the impact of new GNSS-RO data in the EDA 
+accurately with the simulation code developed for the Harnisch study. In addition, the EDA response to real 
+and simulated microwave data appears to be consistent (Figure 16). Overall, if a simulated dataset has realistic 
+(o-b)s, and it is assigned a reasonable R matrix, these results suggest that the spread reductions will be similar 
+to what will be achieved with real measurements with the same observation error characteristics.  
+There are some outstanding questions that require further work. Firstly, it is clear that changes in the EDA 
+spread values can underestimate the actual performance of the observations, particularly for GNSS-RO in the 
+stratosphere (Figure 12). This is to be expected in general, because the EDA is under-dispersive. Areas being 
+investigated to improve the reliability of the EDA include (Section 3.2): improved model uncertainty 
+parameterisations; better modelling of observation errors including horizontal correlations; reduction of the 
+resolution gap between the EDA and the high-resolution analysis.  
+The different scaling factors required for GNSS-RO and microwave data (Figure 18), albeit for different 
+seasons, requires investigation, particularly if we wish to compare different observing systems with the EDA 
+in the future. The role of anchor measurements and bias correction may be relevant here. Real GNSS-RO 
+

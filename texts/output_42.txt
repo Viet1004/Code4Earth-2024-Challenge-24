@@ -1,0 +1,40 @@
+Assessing the impact of observations 
+ 
+ 
+42 
+Technical Memorandum No. 916 
+ 
+Geer, A.J., 2016: Significance of changes in medium-range forecast scores. Tellus A, 68, 21pp, 
+doi:10.3402/tellusa.v68.30229 
+Geer, A.J., F. Baordo, N. Bormann, P. Chambon, S.J. English, M. Kazumori, H. Lawrence, P. Lean, K. Lonitz 
+and C. Lupu, 2017: The growing impact of satellite observations sensitive to humidity, cloud and precipitation. 
+Q. J. R. Meteorol. Soc., 143, 3189-3206, doi:10.1002/qj.3172 
+Geer, A. J., P. Bauer, K. Lonitz, V. Barlakas, P. Eriksson, J. Mendrok, A. Doherty, J. Hocking and P. Chambon, 
+2021: Bulk hydrometeor optical properties for microwave and sub-millimetre radiative transfer in RTTOV-
+SCATT v13.0. Geosci. Model Dev., 14, 7497-7526, doi:10.5194/gmd-14-7497-2021 
+Harnisch, F., S.B. Healy, P. Bauer and S.J. English, 2013: Scaling of GNSS Radio Occultation impact with 
+observation number using an Ensemble of Data Assimilations. Mon. Wea. Rev., 141, 4395-4413, 
+doi:10.1175/MWR-D-13-00098.1 
+Houtekamer, P.L. and H.L. Mitchell, 1998: Data assimilation using and ensemble Kalman filter technique. 
+Mon. Wea. Rev., 126, 796-811, doi:10.1175/1520-0493(1998)126<0796:DAUAEK>2.0.CO;2 
+Houtekamer, P.L. and F. Zhang, 2016: Review of the ensemble Kalman filter for atmospheric data assimilation. 
+Mon. Wea. Rev., 144, 4489-4532, doi:10.1175/MWR-D-15-0440.1 
+Ingleby, B., B. Candy, J. Eyre, T. Haiden, C. Hill, L. Isaksen, D. Kleist, F. Smith, P. Steinle, S. Taylor, W. 
+Tennant and C. Tingwell, 2021: The impact of COVID-19 on weather forecasts: a balanced view.  Geophys. 
+Res. Lett., 48, 10pp, doi:10.1029/2020GL090699 
+Isaksen, L., M. Bonavita, R. Buizza, M. Fisher, J. Haseler, M. Leutbecher. and L. Raynaud, 2010: Ensemble 
+of data assimilations at ECMWF. ECMWF Technical Memorandum, 636, 46pp, doi:10.21957/obke4k60 
+Janisková, M. and P. Lopez, 2013: Linearized Physics for Data Assimilation at ECMWF. Data Assimilation 
+for Atmospheric, Oceanic and Hydrologic Applications (Vol. II), 251-286, doi:10.1007/978-3-642-35088-
+7_11 
+Kelly, G.A., P. Bauer, A.J. Geer, P. Lopez and J.-N. Thépaut, 2008: Impact of SSM/I observations related to 
+moisture, clouds, and precipitation on global NWP forecast skill. Mon. Wea. Rev., 136, 2713-2726, 
+doi:10.1175/2007MWR2292.1 
+Lang, S., E. Hólm, M. Bonavita and Y. Trémolet, 2019: A 50-member ensemble of data assimilations. ECMWF 
+Newsletter, 158, 27-29, doi:10.21957/nb251xc4sl 
+Langland, R.H. and N.L. Baker, 2004: Estimation of observation impact using the NRL atmospheric 
+variational data assimilation adjoint system. Tellus A, 56, 189-201, doi:10.1111/j.1600-0870.2004.00056.x 
+Lawrence, H., N. Bormann, I. Sandu, J. Day, J. Farnan and P. Bauer, 2019: Use and impact of Arctic 
+observations in the ECMWF Numerical Weather Prediction system. Q. J. R. Meteorol. Soc., 145, 3432-3454, 
+doi:10.1002/qj.3628 
+

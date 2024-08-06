@@ -1,0 +1,45 @@
+Assessing the impact of observations 
+ 
+ 
+4 
+Technical Memorandum No. 916 
+ 
+1. 
+Background 
+This Special Topic Paper was originally presented to ECMWF’s Scientific Advisory Committee (SAC) in 
+October 2022. It has been reproduced here as an ECMWF Technical Memorandum, with minor editorial 
+changes, to enable broader access to the SAC document. 
+The ECMWF Strategy 2021-2030 states: 
+“ECMWF will continue to strengthen its key role, in collaboration with space agencies and the WMO, 
+to define and support long-term visions for global observing system developments.” 
+Observing System Experiments (OSEs) and Forecast Sensitivity to Observation Impact (FSOI) methods are 
+used to assess the impact of current observations, and they can provide important insights into how the global 
+observing system (GOS) should evolve (e.g. WMO, 2020). However, the long-term vision for the GOS also 
+requires estimating the information content and potential forecast impact of future observing systems, 
+sometimes before the instruments are developed. An assessment of this type will usually be based on simulated 
+(or “synthetic”) observations. The most established approach for estimating forecast impact with simulated 
+observations is to run Observing System Simulation Experiments (OSSEs) (e.g. Errico and Privé, 2018). These 
+are significant computational exercises, requiring both the integration of a high resolution “nature run” (NR), 
+which is used as a proxy for the true atmospheric state, and the simulation of all existing observing systems.  
+Whilst ECMWF routinely supports OSSEs through the provision of the NRs, it does not conduct them. 
+Running OSSEs at ECMWF would require significant resources.  However, in recent years, we have developed 
+an alternative, computationally cheaper method for assessing new observing systems, using an Ensemble of 
+Data Assimilations (EDA) technique. This approach estimates how the new observations reduce the statistical 
+uncertainty in the analyses and short-range forecasts.  
+Tan et al. (2007) pioneered the method, showing that the assimilation of simulated Aeolus measurements in 
+an EDA system reduced the ensemble “spread”, and that this spread reduction could be used to estimate the 
+impact of the Aeolus measurements. The EDA approach was subsequently used to estimate how the impact of 
+GNSS-RO scales with observation number (Harnisch et al., 2013), and this work informed the 20,000 
+occultation per day target, currently adopted by the International Radio Occultation Working Group (IROWG).  
+In 2021, the SAC noted:   
+"The SAC welcomes and supports the active role ECMWF plays in the preparation for future 
+satellites, often in cooperation with satellite agencies, and evaluation of new data sets and their 
+impacts. The SAC recognises the potential of using the EDA method to assess the contribution of 
+existing and future observing system. However, like for other methods measuring impact, the 
+interpretation needs to consider the limitations of the EDA calibration as well as the constraints of 
+the configuration used for performing the evaluation of the existing or future observing system." 
+A key aim of this paper is to outline our current interpretation and understanding of the strengths and 
+weaknesses of the EDA assessment technique, based on recent and ongoing studies.  Clearly, it is important to 
+engage with the space agencies on these matters when requested, but we must also be clear about the limitations 
+in the information we provide.  
+

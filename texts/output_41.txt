@@ -1,0 +1,40 @@
+Assessing the impact of observations 
+ 
+ 
+ 
+Technical Memorandum No. 916  
+ 
+ 
+ 
+41 
+Bormann, N., H. Lawrence and J. Farnan, 2019: Global observing system experiments in the ECMWF 
+assimilation system. ECMWF Technical Memorandum, 839, 24pp, doi:10.21957/sr184iyz 
+Bouttier, F., and G. Kelly, 2001: Observing‐system experiments in the ECMWF 4D‐Var data assimilation 
+system. Q. J. R. Meteorol. Soc., 127,1469-1488, doi:10.1002/qj.49712757419 
+Buizza, R., M. Leutbecher and L. Isaksen, 2008: Potential use of an ensemble of analyses in the ECMWF 
+Ensemble Prediction System. Q. J. R. Meteorol. Soc., 134, 2051-2066, doi:10.1002/qj.346 
+Cardinali, C., 2009: Monitoring the observation impact on the short-range forecast. Q. J. R. Meteorol. Soc., 
+135, 239-250, doi:10.1002/qj.366 
+Cardinali, C., 2018: Forecast sensitivity observation impact with an observation-only based objective function. 
+Q. J. R. Meteorol. Soc.,144, 2089-2098, doi:10.1002/qj.3305 
+Courtier, P., J.-N. Thépaut and A. Hollingsworth, 1994: A strategy for operational implementation of 4D-Var, 
+using an incremental approach. Q. J. R. Meteorol. Soc., 120, 1367-1387, doi:10.1002/qj.49712051912 
+Duncan, D.I., N. Bormann and E.V. Hólm, 2021: On the addition of microwave sounders and numerical 
+weather prediction skill. Q. J. R. Meteorol. Soc., 147, 3703-3718, doi:10.1002/qj.4149 
+Duncan, D. I., N. Bormann, A. J. Geer and P. Weston, 2022: Assimilation of AMSU-A in all-sky conditions. 
+Mon. Wea. Rev., 150, 1023-1041, doi:10.1175/MWR-D-21-0273.1 
+ECMWF, 2018: ECMWF Forecast User Guide. doi:10.21957/m1cs7h 
+Errico, R. M. and N. C. Privé, 2018: Some general and fundamental requirements for designing observing 
+system simulation experiments (OSSEs). World Weather Research Programme, 2018-8, 24pp, 
+https://ntrs.nasa.gov/api/citations/20190025338/downloads/20190025338.pdf (accessed 20220811) 
+Eyre, J.R., 2021: Observation impact metrics in NWP: A theoretical study. Part I: Optimal systems. Q. J. R. 
+Meteorol. Soc., 147, 3180-3200, doi:10.1002/qj.4123 
+Geer, A.J., P. Bauer and P. Lopez, 2010: Direct 4D‐Var assimilation of all‐sky radiances. Part II: Assessment. 
+Q. J. R. Meteorol. Soc., 136,1886-1905, doi:10.1002/qj.681 
+Geer, A.J. and P. Bauer, 2010: Enhanced use of all-sky microwave observations sensitive to water vapour, 
+cloud and precipitation. ECMWF Technical Memorandum, 620, 41pp, doi:10.21957/mi79jebka 
+Geer, A.J. and P. Bauer, 2011: Observation errors in all-sky data assimilation. Q. J. R. Meteorol. Soc., 137, 
+2024-2037, doi:10.1002/qj.830 
+Geer, A.J., F. Baordo, N. Bormann and S.J. English, 2014: All-sky assimilation of microwave humidity 
+sounders. ECMWF Technical Memorandum, 741, 57pp, doi:10.21957/obosmx154 
+

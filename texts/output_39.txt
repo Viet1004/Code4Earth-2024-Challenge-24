@@ -1,0 +1,54 @@
+Assessing the impact of observations 
+ 
+ 
+ 
+Technical Memorandum No. 916  
+ 
+ 
+ 
+39 
+In summary, although there are aspects that require further research, we believe the EDA method can provide 
+useful information on the impact of future observing systems, that can complement the information provided 
+by other techniques such as OSSEs. 
+6. 
+Appendix: Measuring analysis quality and forecast skill 
+It is worth explaining some of the fundamentals of forecast verification as they help to explain many of the 
+issues encountered when interpreting OSEs (see also ECMWF, 2018, Appendix A).  
+A typical measure of forecast skill is the square root of the mean squared error (RMSE). For a forecast or 
+analysis 𝑓
+) and a reference 𝑎), the RMSE is the square root of the MSE: 
+RMSE = 3MSE(𝑓
+) −𝑎)) = 61
+𝑛7(𝑓
+) −𝑎))(
+*
+)+,
+ 
+(Eq. A1) 
+The index 𝑖 represents one of 𝑛 samples. A global estimate of the error in the 500hPa geopotential height, for 
+example, would use a sample encompassing all latitudes and longitudes and different forecast base times.  
+The RMSE can be decomposed in a number of informative ways. First is the decomposition into the quadratic 
+sum of the error standard deviation 𝑆 and the mean error 𝑀: 
+RMSE = 3𝑆( + 𝑀( 
+𝑆= 1
+𝑛7(𝑓
+) −𝑎) −M)( 
+*
+)+,
+ 
+M = 1
+𝑛7(𝑓
+) −𝑎)) 
+*
+)+,
+ 
+(Eq. A2) 
+This shows that RMSE comes from a quadratic sum of what could be termed transient and systematic errors.  
+However, the reference is not the truth, and the characteristics of the reference have an important bearing on 
+the RMSE. This is seen by introducing the non-observable true state of the atmosphere 𝑡) and decomposing 
+the RMSE into the true error in the forecast, the true error in the reference, and allowing for the fact that the 
+two errors may be correlated. 
+RMSE = 3MSE(𝑓
+) −𝑡)) + 𝑀𝑆𝐸(𝑎) −𝑡)) −2Cov(𝑓
+) −𝑡), 𝑎) −𝑡)) 
+

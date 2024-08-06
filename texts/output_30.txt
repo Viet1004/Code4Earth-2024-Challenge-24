@@ -1,0 +1,32 @@
+Assessing the impact of observations 
+ 
+ 
+30 
+Technical Memorandum No. 916 
+ 
+ 
+Figure 15: Vertical profile of normalised percentage reduction in EDA spread for the U wind 
+component in the northern hemisphere for experiments where the simulated data have been 
+assimilated with and without initial perturbations (red and blue lines respectively) or real MW data 
+have been added or denied (black and grey lines respectively) compared to a baseline with 4 MW 
+sounders.   
+One aspect not previously encountered in either the Aeolus or the GNSS-RO work was the question of how to 
+deal with observational biases for the simulated data. Observational biases are a common feature in the 
+assimilation of radiance observations, arising, for instance, from systematic errors in the calibration or the 
+observation operator. For real data, these are removed during the assimilation using Variational Bias 
+Correction (VarBC). For the simulated data, we made no attempt at modelling such observational biases. This 
+was a pragmatic decision, motivated by the fact that any modelling of bias structures would be highly 
+speculative and subject to the maturity of the level-1 processing of the new data. To avoid that the EDA treats 
+the new observations as anchors for the bias correction of other observations, we however activated VarBC 
+for the new observations, so required the system to estimate bias correction parameters. Corrections to the 
+small satellite data remained stable and small in magnitude compared to those applied to real MW data as 
+expected. The approach used is considered equivalent to assuming that there are no significant biases that are 
+systematic for all satellites across the constellation, and that inter-satellite biases for a given channel average 
+out to near zero when all satellites are considered together. In terms of global biases, this is consistent with the 
+current experience from, for instance, AMSU-A, MHS, or ATMS data. The approach is also justified by 
+assuming that the constellations considered complement a backbone observing system of MW sounders which 
+could be used for inter-calibration exercises. Nevertheless, it remains an open question to what extent 
+observational biases and their treatment through VarBC affect the EDA spread - an aspect that would be worth 
+investigating further in the future. 
+ 
+

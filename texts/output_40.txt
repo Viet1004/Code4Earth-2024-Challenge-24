@@ -1,0 +1,46 @@
+Assessing the impact of observations 
+ 
+ 
+40 
+Technical Memorandum No. 916 
+ 
+(Eq. A3) 
+Here the error covariance Cov() follows standard definitions (e.g. Wilks, 2006). This decomposition shows 
+how the errors in the reference, 𝑀𝑆𝐸(𝑎) −𝑡)), are part of the RMSE. If these are too large, they can dominate 
+the RMSE and it becomes hard to detect changes in what we ultimately want to know, the errors in the forecast, 
+MSE(𝑓
+) −𝑡)). This may be one of the main problems in using observations as the reference for verifying 
+changes in the short-range forecast, since the short-range forecast is often more accurate than any single 
+observation. However, if there is any correlation between the errors in the reference and the errors in the 
+forecast, then these will artificially reduce the RMSE through the covariance term. This is why it is problematic 
+to use analyses to verify the forecast, since these errors can be strongly correlated. There is no perfect reference. 
+Another helpful decomposition is similar to the previous one, but instead subtracts a climatology 𝑐): 
+  
+RMSE = 3MSE(𝑓
+) −𝑐)) + 𝑀𝑆𝐸(𝑎) −𝑐)) −2Cov(𝑓
+) −𝑐), 𝑎) −𝑐)) 
+(Eq. A4) 
+Unlike the truth in the previous decomposition, the climatology can be calculated. In this case (see ECMWF, 
+2018, Appendix A) the covariance term is then considered a good measure of true forecast skill beyond what 
+we already know about climate. Hence the covariance term is the basis of the anomaly correlation coefficient 
+(ACC) which is favoured in some verification contexts. By contrast, the RMSE does not just include the 
+covariance term, but also the two MSE terms, which in this case are seen to measure the variability (sometimes 
+known as activity) in the forecast and in the reference. When the analysis is used as the reference, observing 
+system experiments can be affected by this issue because a change in the observational usage will often change 
+the variability in the analysis. Changes in variability are also a confounding factor in any change to the 
+forecasting system that alters the smoothness of the fields, such as a model resolution upgrade. 
+Although decomposed measures of skill can help mitigate against possible confounding effects in measures of 
+total error like RMSE, focusing too strongly on measures such as the error standard deviation or the ACC 
+means that other components of the error may be ignored (respectively the mean or the variability). The great 
+advantage of the RMSE is that all components of the error are being tracked; the problem is that it takes effort 
+to understand the origins of any change in the RMSE, and to decide whether those changes are important or 
+not. 
+7. 
+References 
+Bechtold, P., R. Forbes and I. Sandu, S. Lang and M. Ahlgrimm, 2020: A major moist physics upgrade for the 
+IFS. ECMWF Newsletter, 164, 24-32, doi:10.21957/3gt59vx1pb  
+Bonavita, M., E. Hólm, L. Isaksen, and M. Fisher, 2016: The evolution of the ECMWF hybrid data assimilation 
+system. Q. J. R. Meteorol. Soc.,142, 287-303, doi:10.1002/qj.2652 
+Bormann, N. and M. Bonavita, 2013: Spread of the ensemble of data assimilations in radiance space. ECMWF 
+Technical Memorandum, 708, 29pp, doi:10.21957/edrq57brh 
+

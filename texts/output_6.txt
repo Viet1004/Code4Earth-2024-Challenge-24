@@ -1,0 +1,34 @@
+Assessing the impact of observations 
+ 
+ 
+6 
+Technical Memorandum No. 916 
+ 
+ 
+Figure 1: Standard deviation of Analysis error as a function of the number of observations. Here, 
+the background error is 1 unit and each observation has an error of 1 unit, with no error correlations 
+or biases. If 10 observations represent the current global observing system, then the orange line 
+shows a denial experiment and the green line an addition experiment. The red line represents a low 
+baseline addition experiment. As more observations are added, their individual impact reduces. 
+A fundamental difficulty with measuring changes in the observing system is that analysis and short-range 
+forecast error statistics are expected to reduce following the inverse of the square root  of the number of 
+observations (See Figure 1, assuming all observations have the same error and are uncorrelated). A small 
+modification within a much larger observing system typically makes only a small impact on the analysis and 
+forecast error statistics, as illustrated in the addition and denial examples in Figure 1. This makes it hard to 
+distinguish the signal of the change in the observing system from the natural chaotic noise in any weather 
+forecast (Geer, 2016).  
+Some studies try to circumvent this by performing low baseline, poorer quality experiments, represented by 
+the red line in Figure 1. This seeks to exclude most other observations in order to get a larger signal from 
+adding the observing system of interest. A typical low baseline includes conventional data plus observations 
+from one satellite, but incorrectly uses settings that have been tuned with the full observing system, such as 
+the background error (e.g. Kelly et al., 2008). This can give insufficient weight to the observations under test, 
+though Duncan et al. (2021) showed that for smaller, but still significant perturbations of the observing system 
+(no microwave sounders), the issue of background errors is less important. The issue of an incorrect 
+background error can also be overcome using an analysis reinitialization approach, where the background 
+always comes from the full observing system (see Geer et al., 2014). However, these are not the only issues 
+with the low baseline approach. A sub-optimal observing system, for example one with an uncorrected bias, 
+might be able to show a beneficial impact on top of a low baseline system, but this impact is probably 
+overestimated, and in the worst case the new data could degrade the analysis when added to a more complete 
+observing system. Conversely, observations sensitive to nonlinear processes like cloud and precipitation may 
+cause problems in a system where the background is too far from the truth, whereas they might be used more 
+

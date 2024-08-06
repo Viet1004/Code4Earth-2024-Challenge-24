@@ -1,0 +1,33 @@
+Assessing the impact of observations 
+ 
+ 
+ 
+Technical Memorandum No. 916  
+ 
+ 
+ 
+25 
+where ideally the intercept, 𝑐, should be related to the radiosonde observation error statistics. An example is 
+shown in Figure 12, for the tropics at 100 hPa where the GNSS-RO information content is high.  
+ 
+  
+Figure 12: The variance of radiosonde short-range forecast temperature departures at 100 hPa in 
+the tropics from the OSEs, versus EDA spread variance, as the number of GNSS-RO measurements 
+is increased. 
+In general, the linear model is a good representation of the spread-skill relationship in the lower/middle 
+stratosphere up to 10 hPa, but as noted by the SAC in 2021, the gradient values, 𝑚, tend to be too large, and 
+in some cases the computed offset, 𝑐, can be negative, implying a negative radiosonde uncertainty value. The 
+gradient values in the stratosphere are typically in the range m=5-11, depending on level and region. We obtain 
+similar results when we compare the EDA spread values with the departure statistics of the EDA control 
+member, so the resolution difference between the OSE and EDA does not account for this.   
+The EDA system is under-dispersive (Section 3.2), so it is expected that the absolute impact of the GNSS-RO 
+will be underestimated. As discussed in Section 3.2, a global scaling factor of 1.34 is currently applied to 
+derive background error standard deviations from the raw EDA spread, so introducing a factor of 1.8 
+(=1.34() in the m values would be consistent with this. However, this factor has been derived primarily to 
+optimise 4D-Var forecast performance, rather than to calibrate spread/skill relationships for specific levels. 
+The factors found here are more in line with results from an evaluation of spread/skill relationships for 
+radiosonde temperature departures obtained by Bormann and Bonavita (2013, see their Figure 4), albeit using 
+an older EDA system over a different period. In their study, they noted that different scaling factors were 
+applicable to different observations, and scaling factors required for AMSU-A channels 8-9 were much lower 
+than for radiosondes in the same vertical interval. One interpretation is that the EDA represents uncertainty at 
+

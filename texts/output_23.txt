@@ -1,0 +1,35 @@
+Assessing the impact of observations 
+ 
+ 
+ 
+Technical Memorandum No. 916  
+ 
+ 
+ 
+23 
+complicates direct comparisons between EDA spread reductions and the improved forecast scores computed 
+in OSEs. 
+ 
+Figure 10: The impact of assimilating Spire (black), COSMIC-2 (red) and (Spire+COSMIC-2) 
+(green) on Z500 RMSE scores. The control experiment includes all measurements used 
+operationally. Removing all GNSS-RO from the control is also shown (blue). Verification is against 
+own analysis (a) and against operational analysis (b), noting the different vertical scales. 
+4.3.1. 
+Consistency of real and simulated COSMIC-2 observations in the EDA  
+One important new result is a comparison of the impact of real and simulated COSMIC-2 GNSS-RO 
+measurements in the EDA system. The Harnish study established that similar numbers of real and simulated 
+GNSS-RO data had a similar impact in the EDA, but the new results are a more systematic study. This is done 
+by simulating GNSS-RO measurements at the observed COSMIC-2 times and locations, using the ECMWF 
+operational analyses with the bending angle simulation code and the observation uncertainty model developed 
+in the Harnisch study.  
+Figure 11 shows vertical profiles of the 12-hour forecast temperature spread reductions obtained with both real 
+and simulated COSMIC-2 data. Overall, the agreement between the real and simulated data is very good, and 
+we also see similar levels of consistency for geopotential, wind and relative humidity. These results suggest 
+that the simplifications and approximations in the GNSS-RO simulation process (Section 4.1.3) do not have a 
+significant impact on the EDA spread estimates, and that we are able to predict the performance of real GNSS-
+RO data in the EDA reasonably accurately.  
+There are some small differences in the tropics, with the simulated data giving larger spread reductions in the 
+troposphere, and smaller reductions above 100 hPa. The differences in the troposphere are still under 
+investigation, but they may be related to a lack of vertical error correlations in the simulated data. In the tropical 
+stratosphere, we have found that the simulated (o-b) departures are too large when compared to real data 
+

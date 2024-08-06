@@ -1,0 +1,29 @@
+Assessing the impact of observations 
+ 
+ 
+14 
+Technical Memorandum No. 916 
+ 
+for a prototype satellite, reflecting the relative sparsity of wind data, especially in the tropics. In Figure 7 the 
+20-day mean values still show some noise, partly due to fluctuations in observation numbers, but much of it 
+can be considered as random. Overall, in situ observations (densest in the northern hemisphere) tend to have 
+slightly larger FSOI in the boreal winter than the summer, reflecting slightly larger background errors in winter. 
+Over the last eight or so years (not shown) there has been a strong increase in the impact of microwave data, 
+especially the humidity channels (MWWV, black in Figure 7) with the addition of several instruments and the 
+move to all-sky radiance assimilation (Geer et al., 2017). 
+ 
+Figure 7: Relative impact of different observation subsets (% of FSOI), 20 day mean. 
+Conceptually, FSOI and OSEs are very different, and they are usually seen as complementary pieces of 
+information. OSEs measure the cumulative impact of removing (or adding) observation subsets, including any 
+effect via adjustments to bias correction, whereas FSOI gives results linearised about the ‘all observations’ 
+states. Therefore, FSOI does not measure the impact of removing the observation type from the system. For 
+example, if an observing system provides 20% in FSOI, this does not mean that forecast errors will increase 
+by 20% if it is removed. The DA system will automatically re-tune, giving more weight to other observations 
+by taking account of the degradation of the background, and the loss of skill may be smaller. The different 
+behaviours of OSEs and FSOI have been highlighted by Eyre (2021). The OSE results are more resilient to the 
+removal of observational information from well-observed variables, but not when denied from poorly observed 
+variables. 
+As in the case of OSEs, FSOI results will depend on the maturity of the NWP system used, including the 
+number and diversity of observing systems assimilated. Two different NWP systems may give very different 
+results. In the case of FSOI, an important caveat is that results are very sensitive to assigned observation errors. 
+

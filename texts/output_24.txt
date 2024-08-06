@@ -1,0 +1,36 @@
+Assessing the impact of observations 
+ 
+ 
+24 
+Technical Memorandum No. 916 
+ 
+because of an ad-hoc inflation of the observation errors introduced by Harnisch et al. (2013) to reproduce the 
+large observed departure statistics near the tropical tropopause.  When this factor is reduced or removed, and 
+the consistency between the real and simulated departure statistics is improved, the spread values show much 
+better agreement.  
+Overall, the results show that the simulated data provides a good approximation of how the real COSMIC-2 
+data changes the spread values in the current EDA system. It is also worth emphasising that the real COSMIC-
+2 measurements improve the estimate of the atmospheric state in the OSEs, but the simulated data does not, 
+making the point that similar spread reductions do always not lead to the same forecast impact.  
+ 
+Figure 11: The vertical profile of 12 hour forecast temperature spread reductions, comparing the 
+impact of real (black) and simulated (green) COSMIC-2 measurements in the EDA. The results are 
+given as a percentage of the temperature spread of the control experiment. The spread is computed 
+for the period January 10 to February 10, 2020. The comparisons are limited to ±40 latitude band 
+sampled by the COSMIC-2 data. The control experiment includes GNSS-RO measurements used 
+operationally in this period.   
+4.3.2. 
+Relationship between EDA spread and radiosonde departure statistics  
+We have progressively added real GNSS-RO measurements in both OSEs and EDA simulations to investigate 
+the relationship between the EDA spread changes and the OSE short-range forecast error statistics. Some of 
+these results were presented to the SAC in 2021.  
+The change of radiosonde short-range forecast departure statistics computed from OSEs are compared with 
+the corresponding “raw” EDA spread values. More specifically, ignoring correlations between the observation 
+and short-range forecast errors, it was assumed that the change in variance of the radiosonde departures, 𝜎($%&)
+(
+, 
+could be written as linear function of the EDA spread squared, 𝑠(, using 
+𝜎($%&)
+(
+= 𝑚𝑠( + 𝑐 
+

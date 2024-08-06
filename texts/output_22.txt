@@ -1,0 +1,27 @@
+Assessing the impact of observations 
+ 
+ 
+22 
+Technical Memorandum No. 916 
+ 
+ 
+Figure 9: The change in normalised (divided by the “no RO” spread values) analysis EDA spread 
+as a function of the number of simulated GNSS-RO measurements, from Harnisch et al. (2013).  
+4.3 
+Recent application to GNSS-RO  
+We have recently completed an ESA study in collaboration with the Met Office and EUMETSAT, testing the 
+combined impact of (~) 3900 COSMIC-2 and 6800 Spire GNSS-RO measurements per day in two NWP 
+systems (Lonitz et al., 2021). The total number of GNSS-RO was ~13,000 profiles per day. The experiments 
+covered the period January 1 to March 31, 2020. The main aim of the study was to determine the actual forecast 
+impact of this real data, to help inform agency commercial data buy decisions. It was also used as an 
+opportunity to compare the impact of simulated and real measurements in the current EDA system, and to 
+examine the real EDA spread-skill relationship, as the GNSS-RO numbers increased significantly.  
+Figure 10 shows the combined impact of the COSMIC-2 and Spire data on the Z500 RMSE scores in the 
+northern and southern hemisphere extra-tropics, verified against both own analysis (a) and operations (b). The 
+impact of GNSS-RO has roughly doubled at the short-range with the addition of the new data. This is 
+comparable to spread reductions given in the Harnish study, which showed a factor of ~3 enhancement in the 
+SH Z500 impact at short-range, when moving from 2000 to 16000 simulated observations per day (See their 
+Figure 6b). However, as discussed in Section 2.1.1 (See Figure 3), the magnitude of the GNSS-RO impact at 
+short-range is sensitive to the choice of verifying analyses, particularly the degradation seen when removing 
+all GNSS-RO from the system, because these observations are used in the operational analyses. This 
+

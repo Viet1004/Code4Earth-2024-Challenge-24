@@ -1,0 +1,49 @@
+Assessing the impact of observations 
+ 
+ 
+ 
+Technical Memorandum No. 916  
+ 
+ 
+ 
+43 
+Lean, K., N. Bormann and S.B. Healy, 2021a: Calibration of EDA spread and adaptation of the observation 
+error model. ESA Contract Report for 4000130590/20/NL/IA, 23pp, doi:10.21957/1auh0nztg 
+Lean, K., N. Bormann and S.B. Healy, 2021b: Developing a flexible system to simulate and assimilate small 
+satellite data. ESA Contract Report for 4000130590/20/NL/IA, 18pp, doi:10.21957/kjmxyh9xy 
+Leutbecher, M., S.-J. Lock, P. Ollinaho, S.T.K. Lang, G. Balsamo, P. Bechtold, M. Bonavita, H.M. 
+Christensen, M. Diamantakis, E. Dutra, S. English, M. Fisher, R.M. Forbes, J. Goddard, T. Haiden, R.J. Hogan, 
+S. Juricke, H. Lawrence, D. MacLeod, L. Magnusson, S. Malardel, S. Massart, I. Sandu, P.K. Smolarkiewicz, 
+A. Subramanian, F. Vitart, N. Wedi and A. Weisheimer, 2017: Stochastic representations of model 
+uncertainties at ECMWF: State of the art and future vision. Q. J. R. Meteorol. Soc., 143, 2315-2339, 
+doi:10.1002/qj.3094 
+Liu, Z.-Q. and F. Rabier, 2002: The interaction between model resolution, observation resolution and 
+observation density in data assimilation: A one-dimensional study. Q. J. R. Meteorol. Soc., 128, 1367-1386, 
+doi:10.1256/003590002320373337 
+Lock, S-J, S. T. K. Lang, M. Leutbecher, R. J. Hogan and F. Vitart, 2019: Treatment of model uncertainty 
+from radiation by the Stochastically Perturbed Parametrization Tendencies (SPPT) scheme and associated 
+revisions in the ECMWF ensembles. Q. J. R. Meteorol. Soc., 145, 75- 89, doi:10.1002/qj.3570 
+Lonitz, K., C. Marquardt, N. Bowler and S. Healy, 2021: Final Technical Note of 'Impact assessment of 
+commercial 
+GNSS-RO 
+data'. 
+ESA 
+Contract 
+Report 
+for 
+4000131086/20/NL/FF/a, 
+72pp, 
+doi:10.21957/wrh6voyyi 
+Lorenc, A.C. and R. T. Marriott, 2014: Forecast sensitivity to observations in the Met Office Global numerical 
+weather prediction system. Q. J. R. Meteorol. Soc., 140, 209-224, doi:10.1002/qj.2122 
+Lupu, C., C. Cardinali and A.P. McNally, 2015: Adjoint-based forecast sensitivity applied to observation-error 
+variance tuning. Q. J. R. Meteorol. Soc., 141, 3157-3165, doi:10.1002/qj.2599 
+Marquet, P., J.-F. Mahfouf and D. Holdaway, 2020: Definition of the Moist-Air Exergy Norm: a comparison 
+with existing “moist energy norms”. Mon. Wea. Rev., 148, 907–928, doi:10.1175/MWR-D-19-0081.1 
+Marseille, G.-J., A. Stoffelen and J. Barkmeijer, 2008: Sensitivity Observing System Experiment (SOSE)—a 
+new effective NWP-based tool in designing the global observing system. Tellus A, 60, 216-233, 
+doi:10.1111/j.1600-0870.2007.00288.x 
+Poli, P., S. Healy, F. Rabier, and J. Pailleux, 2008: Preliminary assessment of the scalability of GPS radio 
+occultations impact in numerical weather prediction. Geophys. Res. Lett.,35, L23811, 5pp, 
+doi:10.1029/2008GL035873 
+

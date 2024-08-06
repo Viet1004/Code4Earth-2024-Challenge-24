@@ -1,0 +1,36 @@
+Assessing the impact of observations 
+ 
+ 
+ 
+Technical Memorandum No. 916  
+ 
+ 
+ 
+9 
+The operational analysis used in the verification in Figure 2 is made using the operational 12-hour forecast. 
+This has a different realisation of the forecast error, and hence is less correlated with the 12-hour forecast in 
+the experiment. The 0-hour forecast validation against the operational HRES analysis (strictly, analysis vs. 
+analysis verification) is similar to comparing two different members of the EDA ensemble, so the apparent 
+error does not reduce to zero. The problem of using the operational analysis as the reference is that it can favour 
+experiments that use the same observing system as the operational system. Systematic changes in the analyses 
+and forecasts introduced by observations could be particularly problematic: for example it is thought that 
+aircraft observations can bias upper-tropospheric temperatures in the analyses and short-range forecast, 
+creating a systematic error with a spatial pattern that follows the main commercial airways over the US, 
+Atlantic and Europe. Through patterns of systematic error, and possibly simply because similar observing 
+systems make corrections to the analyses and forecasts in similar ways, verification against operational analysis 
+can artificially reduce the RMSE in favour of similar observing systems.  
+ 
+ 
+Figure 3: Normalised change in the RMSE vector wind forecast error at 200 hPa in the northern 
+extratropics resulting from a denial of all conventional observations. For three different verification 
+references, the operational analysis, radiosonde observations, and own analysis, the results are 
+completely different in the short-range. Error bars represent the 95 % confidence interval following 
+Geer (2016). Reproduced from the right hand panel of Fig. 3, Bormann et al., 2019. 
+For midlatitude dynamical verification, the issue is not as extreme as in the tropical humidity, but it is still 
+significant. In the context of observing system denials, Lawrence et al. (2019) and Bormann et al. (2019) 
+examined changes in RMSE with three possible references, own-analysis, operational analysis, and 
+observations (e.g. Figure 3). For the 12-hour forecast in this example, the apparent increase in RMSE is 40 % 
+when using the operational analyses as a reference, and just 10% against observations. Even at forecast day-2, 
+verification against operational analysis gives twice the forecast degradation as measured against observations 
+(10% vs. 5%). Though the use of the observational reference has its issues, this suggests that verification 
+

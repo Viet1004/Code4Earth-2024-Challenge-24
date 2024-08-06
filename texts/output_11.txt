@@ -1,0 +1,36 @@
+Assessing the impact of observations 
+ 
+ 
+ 
+Technical Memorandum No. 916  
+ 
+ 
+ 
+11 
+ 
+Figure 5: Size of the 95% statistical significance range for 500hPa geopotential height forecast in 
+the extra-tropics, as a function of the number of forecasts in the sample, and of the forecast range. 
+The significance range is expressed as a percentage change in the RMSE, normalised by the RMSE 
+in the control experiment. The impact of adding one AMSU-A to the full observing system is around 
+a 0.5 % reduction in the RMSE at day-5, meaning that at least 500 separate forecasts would be 
+needed to measure this change with statistical significance. Reproduced from figure 15a of Geer 
+(2016).  
+One of the difficulties of forecast verification is deciding whether a difference in the forecast quality has come 
+from the change being tested, such as addition of a new observing system, or whether it is just the consequence 
+of chaotic error growth. This is the role of statistical significance testing. However, chaotic errors are often 
+large compared to the small signals being measured in an addition or denial experiment. This chaotic noise can 
+be reduced by running experiments for long periods; Figure 5 shows how the impact of a single AMSU-A, 
+which reduces forecast error by around 0.5% in the medium-range, would need to be aggregated from around 
+500 separate forecasts to attain statistical significance at forecast day-5 (Geer, 2016).   
+A final consequence of chaotic error growth is the importance of small areas of high sensitivity, often mapping 
+onto baroclinic features. The existence of these sensitive areas is clearly shown by adjoint modelling (e.g. 
+Rabier et al., 1996). However, the existence of sensitive areas may make short-range verification an unreliable 
+predictor of changes in the medium-range forecast skill. Imagine a new observing system that predominantly 
+improves the analysis in the subtropical subsidence regions. These are areas which seem to have very small 
+influence on the subsequent forecast; the short-range verification might be improved, but if the new observing 
+system was unable to improve the analysis in areas of rapidly growing forecast errors, it might not have any 
+effect on the medium-range forecasts. A similar effect is seen in the decorrelation of measured forecast skill at 
+longer ranges: just because the day-3 forecast is good does not mean the day-10 forecast will also be good (e.g. 
+Geer, 2016). This is mainly a caution against placing too much weight on the short-range verification, which 
+is often a temptation if statistical significance cannot be established in the medium-range. 
+

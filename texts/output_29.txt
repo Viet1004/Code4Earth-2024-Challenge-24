@@ -1,0 +1,28 @@
+Assessing the impact of observations 
+ 
+ 
+ 
+Technical Memorandum No. 916  
+ 
+ 
+ 
+29 
+subsequently added in the EDA were nevertheless based on the full all-sky observation error model, with larger 
+values in cloudy regions. The parameters for this error model were chosen in line with values used in the 
+assimilation of real data. 
+ 
+Figure 14: Increase in standard deviation of O-B (solid lines) with increasing presence of cloud 
+signal for real Metop-A AMSU-A channel 5 data (black) and simulated small-satellite data for the 
+equivalent channel (red). Low values of the cloud indicator indicate clear-sky regions, whereas 
+increasing values indicate increasing presence of cloud signals. Crosses indicate the number of 
+observations (right x-axis). Data are from the period 9-14 June 2018, over land surface only and 
+from latitudes between 60ºN-60ºS. 
+To test the sensitivity to the perturbations applied during the observation simulation, an additional EDA 
+experiment using the Polar (8 satellite) constellation without these initial perturbations was also run. The 
+observation error modelling applied in the EDA (and hence the perturbations applied in the EDA) were 
+unchanged. Figure 15 shows a representative example that the effect of the initial perturbations applied has 
+very little impact on the overall changes in EDA spread compared to the overall signal. It gives some further 
+indication that the modelling of the perturbations applied during the simulation of the observations is a 
+secondary influence on the EDA spread, at least as long as these perturbations are smaller than the perturbations 
+subsequently added in the EDA.  
+

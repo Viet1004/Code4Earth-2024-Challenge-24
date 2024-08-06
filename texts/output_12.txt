@@ -1,0 +1,51 @@
+Assessing the impact of observations 
+ 
+ 
+12 
+Technical Memorandum No. 916 
+ 
+2.1.3. 
+Summary 
+For decades, medium-range weather forecasting has used the midlatitude geopotential height errors at 500 hPa 
+as a main indicator of synoptic forecast quality. This can seem overly reductive. However, these errors are 
+easy to measure, since they far outweigh any errors in the reference, and they rapidly outgrow the error 
+covariance term that makes the choice of reference so important in the earlier forecast range. Finally, the 
+medium-range forecast is an effective filter, taking whatever information is useful from the observations (in 
+areas where the errors are rapidly growing) but ignoring observational information in areas that don’t matter 
+(in areas of decaying errors). It is hard to measurably improve the medium-range synoptic forecast, due to the 
+size of the chaotic variability, and due to the relatively small signals involved in high-baseline addition or 
+denial experiments (Figure 1). But for these reasons, a statistically significant reduction in the day-5 
+extratropical 500hPa geopotential height RMSE is an unambiguous signal that an observing system has a 
+beneficial impact. Verification of the short-range forecasts, and of areas or fields with more complex error 
+patterns, such as the stratosphere, the tropics, or clouds and humidity generally, is also important, but needs to 
+be approached with much greater caution.   
+2.2 
+Forecast Sensitivity to Observation Impact (FSOI) 
+Forecast Sensitivity to Observation Impact (FSOI, Langland and Baker, 2004) is an adjoint or ensemble-based 
+method that enables the simultaneous assessment of how different groups of observations contributed to the 
+reduction of a globally integrated, quadratic function of short-range forecast errors. It is argued that the reduced 
+error in a 24-h forecast from the analysis, compared to the 36-h error forecast from the background, is due to 
+the work done by the observations to improve the description of the atmospheric state. Using the adjoint (in 
+the ECMWF implementation) of the forecast model, the forecast error differences, usually expressed as a total 
+energy norm, are traced back in time (linearly) and attributed to individual observations according to their 
+weight in the analysis, and relevance to the chosen metric. Given that FSOI relies on the use of a linearised 
+version of the forecast model, it is only valid to evaluate short-range forecasts (0 to 48 hours, Janisková and 
+Lopez, 2013). As discussed in the previous section, FSOI results at short-range can only be considered a partial 
+indicator of medium-range forecast impact.   
+The choice of forecast error measure, including the verifying reference, is an important aspect of the FSOI 
+application, and it needs to be decided at the start of the FSOI calculations. Most NWP centres use a dry or 
+moist total energy norm as an overall measure of forecast skill, obtained by verifying against the own analysis. 
+The choice of dry or moist energy norm can have some impact on results and conclusions subsequently reached 
+(Marquet et al., 2020), as it leads to different weighting of forecast errors across variables and levels. The 
+choice of verifying reference can also have a significant impact on the results, as errors in the verifying analysis 
+can confuse the interpretation of the impact of the observations. This can be due to biases in analysis and 
+forecast, as well as correlated errors between analysis and forecast, and this problem is very similar to the 
+issues highlighted earlier in the context of short-range forecast verification of OSEs. While the use of own-
+analysis verification is most common for FSOI applications, Todling (2013) and Cardinali (2018) tested instead 
+the use of an observation-based forecast error metric, to avoid some of these issues. Necessarily, results 
+differed from the analysis-based FSOI, not least due to the geographical and geophysical sampling of the 
+observing system and giving more weight to the stratosphere because of the satellite information the. At 
+ECMWF, the default configurations used in operations applies the dry total energy norm to assess the impact 
+on T+24 forecasts (Cardinali, 2009), using own-analysis verification, and the system is run twice daily based, 
+using the long-window configuration of the HRES system. 
+

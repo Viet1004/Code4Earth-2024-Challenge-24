@@ -1,0 +1,48 @@
+Assessing the impact of observations 
+ 
+ 
+38 
+Technical Memorandum No. 916 
+ 
+measurements anchor the system because they can be assimilated without bias correction, but this key 
+measurement characteristic is not captured in the EDA assessment. In contrast, the microwave measurements 
+will require bias correction and they are assimilated with VarBC so that they are not treated as anchor 
+measurements, but biases are not currently applied in the simulation process.  
+The present EDA studies focus on changes in the spread at short-range, and interpret this as a partial predictor 
+of medium-range forecast impact. The EDA experiments can provide an estimate of medium-range impact, 
+and we have found that simulated and real COSMIC-2 measurements produce similar spread reductions at 
+day-5 which is encouraging (Figure 19). However, the interpretation of such results is complicated by the fact 
+that singular vectors are required to produce a reliable ensemble at medium-range. For this reason, we consider 
+short-range results to be most robust. The emphasis on short-range impact is in common with the use of FSOI, 
+which also is strictly only applicable to characterise short-range impact. 
+In principle, well calibrated OSSEs potentially provide more information on the medium-range impact of new 
+observing systems, but developing and maintaining a well calibrated OSSE system, which also keeps pace 
+with the evolving global observing system, is a major challenge. It is probably easier to test the impact of new 
+observations on top of the latest global observing system with the EDA, because it is used in operations and it 
+will include the latest observations. However, we do not see the EDA and OSSEs as in direct competition. It 
+is important to recognise that the impact of new observations will vary depending on the details of the 
+implementation in each NWP system. Having access to both OSSEs and EDA estimations from different 
+systems (and possibly other methods, like Sensitivity Observing System Experiments, Marseille et al., 2008) 
+should help isolate system dependent aspects from the real impact, and provide better overall guidance to the 
+agencies. The recent OSSE results from Privé et al. (2022) illustrate this point. Adding GNSS-RO clearly 
+degrades winds in the tropical stratosphere in that system (their Figure 16), but this not case in either the EDA 
+experiments or OSEs with real GNSS-RO, so this apparent degradation should be ignored. This kind of 
+problem is easy to spot for an existing observing system where OSEs are available, but it will be much harder 
+for completely new observation types, so multiple approaches should be useful. In this context, we note that 
+the assessments of the future DWL system coordinated by EUMETSAT, will include both ECMWF EDA 
+estimates with OSSEs performed with the NOAA system. Similarly, an OSSE will be performed by Météo-
+France for the EPS-Sterna constellation, in addition to the EDA experimentation planned at ECMWF.  
+To date, we have used the EDA to assess potentially large changes to the global observing system, but usually 
+involving just one observation type which is already used operationally and well understood. Going forward, 
+the impact of different observing systems will be compared with the EDA, for instance in the context of the 
+DWL and EPS-Sterna constellation work mentioned earlier. Doing so will implicitly assume that the EDA 
+response reflects the short-range forecast uncertainty in a similar way for the two observing systems 
+considered. As noted above, this aspect requires further investigation, for instance by conducting EDA 
+experimentation with real data for the different observing systems over the same period and in the same system. 
+At times, space agencies are also interested in more subtle questions for specific instrument design, such as 
+how changes in horizontal resolution or sampling for a MW instrument affects the results, or what benefit the 
+addition of a specific channel brings. Such questions are very difficult to answer with the EDA method (or 
+indeed OSSEs), either as our modelling and assimilation of the observations is not sophisticated enough to 
+assess such details, or as the signals are likely to be small, and uncertainties in the EDA method may dominate. 
+We consider the EDA method to be best suited for relatively sizeable changes to the observing system. 
+

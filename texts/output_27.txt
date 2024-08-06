@@ -1,0 +1,57 @@
+Assessing the impact of observations 
+ 
+ 
+ 
+Technical Memorandum No. 916  
+ 
+ 
+ 
+27 
+adding MW sounding data has been demonstrated in observing system experiments with existing observations 
+(Duncan et al., 2021), raising some expectation that further improvements in temporal sampling would lead to 
+further benefits. Developments in satellite and sensor technology make it feasible to launch MW sounding 
+instruments on small satellites or even cube-sats, thus making such constellations a possibility, as a 
+complement to the backbone global observing system.  
+The study considered different orbit and instrument scenarios to probe two key aspects of the constellation 
+design: how the impact varies with the number/ distribution of satellites, and the relative benefits of different 
+sets of channels (183 GHz humidity-sounding only or with additional temperature sounding in the 50 GHz 
+band). The constellations vary in size between 8 and 20 satellites, and the orbital planes are optimised to 
+complement four existing MW sounders in the 9:30 (Metop) and 13:30 (JPSS) orbits (Table 1), part of the 
+CGMS backbone constellation. Hypothetical instrument payloads were considered, with channels based on 
+sub-sets of channels envisaged for the Arctic Weather Satellite. 
+Table 1: Satellite constellations with MW sounding considered. In the real-data cases, combinations 
+of AMSU-A/MHS or ATMS were normally used, with the exception of the 5th orbit in the 
+Metop/JPSS+ constellation, for which a combination of the NOAA-15 AMSU-A and the F-17 SSMIS 
+was used (both in approximately a 6:30 orbit during the study period). For each constellation with 
+MW sounding data, separate EDA experiments were run with humidity-sounding channels 
+assimilated only, and with temperature and humidity-sounding channels assimilated.  
+(*) Strictly, 8 satellites with real data are used, though only 7 sets of temperature + humidity 
+sounding capabilities. 
+Constellation name 
+Type of orbits 
+Number of 
+orbital planes 
+Number of 
+satellites 
+Real data 
+No MW sounders 
+- 
+0 
+0 
+Metop/JPSS baseline 
+Sun-synchronous 
+2 
+4 (Metop-A/B; S-
+NPP, NOAA-20) 
+Metop/JPSS+ 
+Sun-synchronous 
+5 
+8* (Metop-A/B; S-
+NPP, NOAA-15/ 
+18/19/20, F-17) 
+Simulated new data, added to the Metop/JPSS baseline with real data 
+Polar 
+Sun-synchronous 
+4 
+8 
+

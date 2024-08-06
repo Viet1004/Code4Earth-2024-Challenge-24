@@ -1,0 +1,28 @@
+Assessing the impact of observations 
+ 
+ 
+44 
+Technical Memorandum No. 916 
+ 
+Privé, N.C., R.M. Errico and A.E. Akkraoui, 2022: Investigation of the potential saturation of information 
+from Global Navigation Satellite System Radio Occultation observations with an Observing System 
+Simulation Experiment. Mon. Wea. Rev., 150, 1293-1316, doi:10.1175/MWR-D-21-0230.1 
+Rabier, F., E. Klinker, P. Courtier and A. Hollingsworth, 1996: Sensitivity of forecast errors to initial 
+conditions. Q. J. R. Meteorol. Soc., 122, 121-150, doi:10.1002/qj.49712252906 
+Rabier, F., H. Järvinen, E. Klinker, J.-F. Mahfouf and A. Simmons, 2000: The ECMWF operational 
+implementation of four-dimensional variational assimilation. Part I: Experimental results with simplified 
+physics. Q. J. R. Meteorol. Soc., 126, 1143–1170, doi:10.1002/qj.49712656415 
+Rennie, M.P., L. Isaksen, F. Weiler, J. de Kloe, T. Kanitz and O. Reitebuch, 2021: The impact of Aeolus wind 
+retrievals on ECMWF global weather forecasts. Q. J. R. Meteorol. Soc., 147, 3555-3586, doi:10.1002/qj.4142 
+Rodgers, C. D., 2000: Inverse Methods for Atmospheric Sounding. 256pp, World Scientific Publishing, 
+Singapore, doi:10.1142/3171 
+Tan, D.G.H., E. Andersson, M. Fisher and L. Isaksen, 2007: Observing-system impact assessment using a data 
+assimilation ensemble technique: application to the ADM–Aeolus wind profiling mission. Q. J. R. Meteorol. 
+Soc., 133, 381-390, doi:10.1002/qj.43 
+Todling, R., 2013: Comparing two approaches for assessing observation impact. Mon. Wea. Rev., 141, 1484-
+1505, doi:10.1175/MWR-D-12-00100.1 
+Wilks, D.S., 2006: Statistical Methods in the Atmospheric Sciences. 2nd Ed. Academic Press, Burlington, MA, 
+USA. 
+WMO, 2020: The 7th WMO Workshop on the Impact of Various Observing Systems on NWP. 
+https://community.wmo.int/meetings/NWP-7 (accessed on 20220811)  
+

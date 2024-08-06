@@ -1,0 +1,36 @@
+Assessing the impact of observations 
+ 
+ 
+32 
+Technical Memorandum No. 916 
+ 
+benefits, more than doubling the impact of MW sounders compared to the Metop/JPSS baseline. 
+As we know from OSEs, this is a very significant impact (Duncan et al., 2021).  
+2. There is a clear added benefit from the temperature sounding channels (compare red and black 
+data points), highlighting the value of a more complex instrument that includes such capabilities. 
+The benefit from temperature-sounding capabilities most likely results from the effective noise 
+reduction due to repetitive measurements: for MW temperature-sounding, the size of typical errors 
+in the background is comparable to that of the instrument noise of the available observations, 
+hence reducing the effective noise is especially beneficial.  
+3. As in the case of the GNSS-RO data, the rate of the spread reduction decreases for larger 
+constellations, with the shape of the curve broadly similar to that seen for the GNSS-RO data.  
+The EDA also captures that the assimilation of MW-sounding observations leads to improvements for wind 
+forecasts, through the ability of 4D-Var to infer information on the dynamics from observations primarily 
+sensitive to temperature, humidity, and clouds. This is highlighted in Figure 17, which shows the EDA spread 
+reduction for the Northern Hemisphere and the Tropics for some selected constellations. The relative benefit 
+for wind of adding temperature-sounding channels to the humidity-sounding channels differs between the two 
+regions shown (compare, for instance, the purple solid and dashed lines). The different importance is consistent 
+with the primary mechanisms considered relevant for obtaining wind information: over the Tropics, the 
+humidity-sounding channels play a larger role, via the 4D-Var humidity/cloud tracing, whereas over the extra-
+tropics there is more significant benefit from the temperature-sounding channels, as geostrophic balance 
+becomes a leading mechanism. The real data show a similar behaviour (compare the solid black and dotted 
+lines), and the finding is also consistent with experiences from OSEs. It is reassuring that the EDA captures 
+these different behaviours. 
+ 
+Figure 17: Change in the EDA spread relative to the Metop/JPP constellations for the u-component 
+of wind over the Northern Hemisphere extra-tropics (left) and the Tropics (right) for the 
+constellations listed in the legend. Dashed lines indicate experiments with humidity-sounding only, 
+whereas solid lines indicate combined use of temperature and humidity-sounding. 
+One rather practical aspect encountered during the study was the role of thinning applied prior to the 
+assimilation of MW-sounding data. In line with current practice for real data, observations for the simulated 
+

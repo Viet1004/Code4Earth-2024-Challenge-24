@@ -1,0 +1,47 @@
+Assessing the impact of observations 
+ 
+ 
+ 
+Technical Memorandum No. 916  
+ 
+ 
+ 
+5 
+Predicting the impact of a future observing system for NWP is very difficult with any method, because the 
+overall signal will usually be relatively small when the measurements are added to the full observing system. 
+In fact, it is recognised that assessing impact of real observations can now be challenging, because the NWP 
+systems are already well constrained and skilful. Ideally, we want to demonstrate a statistically significant 
+impact in the medium-range from a new observing system, but this can be difficult to achieve in a reasonable 
+timeframe, so often a balanced judgment based on shorter-range forecast improvements and consistency with 
+other observations, is required prior to operational use. It is useful to initially describe how real observations 
+are evaluated, before explaining how we try to estimate the impact of a future system with the EDA.  
+In Section 2, we review how real observations are assessed, using both Observing System Experiments (OSEs) 
+and the Forecast Sensitivity to Observation Impact (FSOI) approach.  Both methods are routinely used to 
+quantify the impact of components of the existing observing system, and they help support choices about the 
+future evolution of the GOS based on current impact.   
+The main role of the EDA in the IFS is to provide flow dependent uncertainty information in the HRES system 
+and contribute to the representation of initial condition uncertainties used in the ensemble forecasts. We review 
+the key aspects of the EDA in Section 3, with a focus on understanding the sources of the EDA “spread”, the 
+current need to inflate the spread values when constructing the covariance matrices used in operations, and the 
+possible reasons for this “under dispersion”.   
+In Section 4, we present the use of the EDA for assessing new observing systems. The similarities with 
+theoretical 1D-Var information content studies are noted. Previous EDA studies by Tan et al. (2007) and 
+Harnisch et al. (2013) are briefly reviewed. Two recent studies funded by ESA, investigating the short-range 
+forecast spread-skill relationship for real GNSS-RO observations (Section 4.3), and assessing the impact of a 
+proposed constellation of microwave sounders on small satellites (Section 4.4), are then summarised. 
+Importantly, both studies have compared the spread reductions achieved with simulated and real observations, 
+and they have shown good consistency. 
+Section 5 is a summary.  
+2. 
+Assessing the impact of existing observing systems 
+Assessing the impact of existing observations can provide important insights into how the global observing 
+system should evolve. In this section, we review how we assess existing systems with using Observing System 
+Experiments and the Forecast Sensitivity to Observation Impact method.  
+2.1 
+Observing System Experiments 
+An observing system experiment (OSE) measures the impact of a change in the real observing system. A 
+denial experiment starts from the full observing system and removes one or more components. Denial 
+experiments are used to assess the relative benefits of different types of observations. An addition experiment 
+measures the impact of adding a new component to the existing observing system. These are used before 
+deciding whether to activate a new observation type in the operational forecasting system.  
+

@@ -1,0 +1,44 @@
+Assessing the impact of observations 
+ 
+ 
+36 
+Technical Memorandum No. 916 
+ 
+The EDA simulations to be conducted will build on and complement the work presented in Section 4.4, and 
+results are expected to contribute to the required trade-off analyses. A particularly novel aspect will be 
+estimating the impact of the new 325 GHz channels which are similar to channels to be flown on the Ice Cloud 
+Imager on EPS-SG, but are not currently available from space.  
+Future Doppler Wind Lidar  
+The Aeolus Doppler Wind Lidar (DWL) did not meet the pre-launch mission requirements, but the horizontal 
+line of site (HLOS) winds have had a significant positive impact in NWP systems (Rennie et al., 2021).  
+An operational follow-on DWL mission is being considered, and Phase 0 of preparation activities started at 
+ESA and EUMETSAT in 2020. Consolidated requirements are also currently being compiled. It seems 
+reasonable to expect that a future DWL mission will improve upon the Aeolus performance in terms of HLOS 
+quality. Therefore, it is useful to estimate how this anticipated improvement will translate into an additional 
+DWL impact in an NWP system. The EDA approach will be used to test this. One simulated DWL dataset will 
+be produced with noise characteristics consistent with the actual Aeolus performance, and the other will be 
+based on the expected performance of the future DWL system.   
+Future MW-sounding systems from NOAA  
+In addition, a further EDA-activity will be done in collaboration with NOAA and the Cooperative Institute for 
+Satellite Earth System Studies (CISESS). The aim will be to evaluate the NWP benefit from a future MW 
+sounder that is being considered by NOAA as a follow-on to the ATMS instrument, with added channel 
+capabilities in the 118 GHz band. The study will consider the impact of such an instrument in the 13:30 and 
+5:30 orbits, and relate this impact to that of the MW sounders on the current heritage POES satellites as well 
+as that of ATMS.  
+5. 
+Summary 
+This paper has reviewed and summarised approaches used at ECMWF to evaluate the benefit of observations 
+in global NWP. The main emphasis has been on evaluating the expected impact of future observations for 
+which ECMWF has established a 4D-Var information-content approach that builds on the operational EDA 
+system. However, we have also reviewed methodological aspects of the use of OSEs and FSOI for measuring 
+impact of existing observations, as well as key features of the performance of the ECMWF EDA. 
+The global observing system is evolving, and OSEs are considered the gold-standard for evaluating the present 
+impact of real observations. ECMWF complements this with FSOI evaluations for diagnostic purposes. Recent 
+OSEs have highlighted challenges in terms of reliable verification of short-range forecast impact, and they 
+exhibit a healthy robustness and resilience of the global system to denying single observing systems for NWP. 
+Given the current state of the global observing system, it is increasingly important to optimise the 
+complementarity of different future systems and to evaluate opportunities offered by new technology. OSEs 
+and FSOI can provide important insights into how the global observing system should evolve, but simulations 
+of the future impact of specific observing systems are an important ingredient for achieving such an optimised 
+design. 
+

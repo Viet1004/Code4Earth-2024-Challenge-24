@@ -1,0 +1,46 @@
+Assessing the impact of observations 
+ 
+ 
+16 
+Technical Memorandum No. 916 
+ 
+uncertainty parametrization is identical to the one used in the ensemble forecasts (Lock et al., 2019), and it is 
+added to the model of each ensemble member. Boundary and forcing terms are only partially represented with 
+climatological SST perturbations. Land, sea ice and snow-covered surfaces are not explicitly perturbed. System 
+uncertainty is not explicitly accounted for, but we attempt to reduce its amplitude by applying the same 4D-
+Var system in each member as in the unperturbed analysis, apart from the differences in resolution and number 
+of outer loops for cost considerations. 
+There are several sources of bias in the current uncertainty estimates. Observation error amplitude and 
+correlations are sometimes simplified. For example, we omit the spatial correlation of AMV observation errors 
+for computational cost reasons and increase their standard deviations to compensate. More generally, it is 
+conceivable that the lack of explicit spatial observation error correlations in other dense observing systems 
+(e.g., microwave and infrared sounders) could be a significant source of missing variance in the EDA error 
+budget (Liu and Rabier, 2002). Model error uncertainty is calibrated for performance in the ensemble forecast 
+system, but in some areas, terms are omitted or reduced. For example, we reduce the perturbations in the 
+boundary layer for stability, and there is also a lack of explicit perturbations to the surface fluxes (Leutbecher 
+et al., 2017). Further omissions are a lack of perturbations in the land surface models, which will reduce 
+boundary layer spread in the atmospheric boundary layer. 
+The under dispersion of the cycling EDA system means we need to apply inflation to the covariances A and B 
+calculated from the raw EDA at the point where they are used. For the background errors, B, currently a global 
+inflation factor of 1.34 is applied when calculating background errors standard deviations from raw EDA 
+spread values. This factor is heuristically derived from testing which covariance inflation gives the best 4D-
+Var performance, both in terms of observation departures and medium-range forecast scores, and it changes 
+over time with updates to the system. This multiplication is applied inside the analysis, where there is also a 
+further modification of the amplitude to account for the difference in global variance at different inner loop 
+truncations. 
+A remaining question is whether the relative spread changes we see by comparing EDA's run in a simpler 
+configuration, for example the lower resolution and fewer members used when assessing new observations, 
+are representative for changes we would see in the full resolution system. This has been addressed in the 
+context of designing lower resolution and fewer members EDA experiments, to test the impact of proposed 
+changes to the full resolution system (Lang et al., 2019). In the majority of cases, the changes in the low-
+resolution system are representative, with only a minority of changes requiring full resolution testing. For EDA 
+observation impact studies, we can likewise use fewer members. Lower resolution will likely give similar 
+results for most observation types, with the provision that certain observation types are more sensitive to 
+resolution and need more resolution, for example TCo639 (18 km spacing) rather than TCo399 (29 km 
+spacing). 
+There are currently several areas of work being considered to improve the reliability of the EDA. These include 
+improved model uncertainty parameterizations, better modelling of observation errors including horizontal 
+correlations, and a reduction of the resolution gap between the EDA and the high-resolution analysis. By 
+addressing the sources of unreliability while not inflating the cycling EDA, we aim to stepwise improve the 
+reliability of the EDA. 
+

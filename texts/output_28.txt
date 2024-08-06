@@ -1,0 +1,58 @@
+Assessing the impact of observations 
+ 
+ 
+28 
+Technical Memorandum No. 916 
+ 
+Polar+ 
+Sun-synchronous 
+7 
+14 
+Polar++ 
+Sun-synchronous 
+10 
+20 
+4x2 
+Mid-inclination (60º) 
+4 
+8 
+6x2 
+Mid-inclination (60º) 
+6 
+12 
+Polar + 4x2 
+Sun-synchronous + 
+mid-inclination (60º) 
+8 
+16 
+ 
+4.4.1. 
+Observation-specific adaptations  
+The new observations were simulated and assimilated in the all-sky framework developed for MW-sounding 
+radiances (Geer et al., 2014, Duncan et al., 2022), using RTTOV-SCATT as the observation operator (Geer et 
+al., 2021). The overall approach of simulating the new observations largely followed that of the recent GNSS-
+RO work, that is, the observations were simulated from high resolution (TCo1279, 9km) ECMWF analysis 
+trajectories. Over land and snow/sea-ice, where the assimilation of real sounding data relies on an emissivity 
+retrieval from window-channel observations, alternative approaches to specify the surface emissivity needed 
+to be used, as the emissivity retrieval is not possible. Here, values from an emissivity atlas were employed 
+over snow-free land, and typical values over snow and sea-ice surfaces. The latter are relatively crude 
+assumptions, reflecting the current lack of sufficiently accurate physically-based surface emissivity modelling. 
+An important new aspect to address during the simulation of the cloud-affected brightness temperatures was 
+how to treat representation error. For all-sky assimilation of MW radiances, this is considered dominant in 
+cloudy situations, and this aspect is reflected in the situation-dependent observation error model used during 
+the assimilation (Geer and Bauer, 2011). The observation error model assigns larger values in cloudy regions, 
+dependent on a cloud indicator which characterises the presence of clouds in the observations or the 
+background. Applying a similar model during the simulation of the new observations (prior to the EDA) was 
+considered. However, during the course of the work it was found that adding random perturbations according 
+to the instrument noise alone led to 4D-Var background departure statistics that were remarkably consistent 
+with those of real observations. An example of this is given in Figure 14 which shows standard deviations of 
+background departures as a function of the cloud indicator used in the observation error model. The good 
+agreement is likely the result of several factors. One is chaotic error growth relating to clouds. Another is 
+differences in the spatial resolution, as the brightness temperatures were produced using TCo1279 (9km) 
+trajectories, but assimilated at lower resolution (TCo399, ~25 km, as in the EDA configuration), hence 
+introducing some form of spatial representation error. Differences in the moist physics may also play a role, 
+with the old physics parametrization used in the observation simulations, whereas the new moist physics 
+(Bechtold et al., 2020) were used in the assimilation, hence introducing a representation error relating to the 
+cloud-representation. Given these results, it was decided to only add random perturbations consistent with the 
+specified instrument noise when producing the simulated observations. Note, however, that the perturbations 
+

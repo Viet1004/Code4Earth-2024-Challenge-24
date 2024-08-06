@@ -1,0 +1,34 @@
+Assessing the impact of observations 
+ 
+ 
+34 
+Technical Memorandum No. 916 
+ 
+ 
+Figure 18: Scatter plot of the variance of the radiosonde (O-B) and variance of the EDA spread for 
+temperature at 100 hPa (left) and 500 hPa, both Northern Hemisphere (right). 
+The slope values have also been compared to those obtained from the GNSS-RO study, and the values differ 
+considerably, with the GNSS-RO scaling factors typically larger than the ones for the MW. However, the two 
+studies were conducted over different seasons and years (June 2018 for the MW work, and January-March, 
+2020 or the GNSS-RO work), so a direct comparison of the scaling factors is questionable, as at least some of 
+the differences likely reflect seasonal and inter-annual differences in the performance of the EDA. In line with 
+seasonal aspects playing a particular role, profiles of EDA spread for the two studies differed strongly in size 
+for the extra-tropics when comparing the same hemispheres, but they were broadly similar when comparing 
+spread values for opposite hemispheres. Values for the variance of radiosonde departures also showed better 
+agreement for the opposite hemispheres. The relevance of the scaling factor and any similarities and 
+differences for different observing systems nevertheless warrants further research. One aspect currently being 
+considered is whether the spatial sampling of the different observing systems also influences these gradient 
+values. 
+4.5 
+Medium-range impact assessment with the EDA 
+Ideally, we would like to provide an estimate of the observation impact at medium-range, but the EDA studies 
+usually focus on spread reductions achieved at the short-range where the observation signal is clearest. In 
+general, if we reduce the errors at short-range, we are likely to improve the medium-range errors, but this is 
+only considered a partial predictor of medium-range skill. We encounter a similar situation for the 
+interpretation of FSOI, which also only estimates short-range forecast skill. In principle, we can extend the 
+EDA spread calculations to longer ranges (without adding the singular vectors used in the ENS system) as part 
+of the assessment studies. For example, Figure 19 compares the EDA temperature spread reductions achieved 
+with real and simulated COSMIC-2 measurements at day-5. There is still reasonable consistency between the 
+real and simulated data which is encouraging, and as expected the COSMIC-2 spread reductions are smaller 
+than achieved at 12 hours (Figure 11).  
+

@@ -1,0 +1,28 @@
+Assessing the impact of observations 
+ 
+ 
+10 
+Technical Memorandum No. 916 
+ 
+against the operational analysis gives an inflated estimate of the degradation caused by removing observing 
+system components, out to at least day-3. As the forecast range increases, due to rapid error growth in the 
+midlatitudes, the true errors in the forecast become relatively large compared to the errors in the reference or 
+the error correlation term (Eq. A3, see Appendix) so the choice of reference becomes less important in the 
+longer-range forecast. For the most reliable forecast evaluation at short forecast ranges, it is typical to favour 
+observation-based measures as the most reliable verification reference. 
+2.1.2. 
+Growth of forecast errors 
+ 
+Figure 4: RMSE in geopotential forecasts at 500 hPa in the northern midlatitudes (solid) and in the 
+tropics (dashed). 
+The atmosphere is a dynamic system with sensitive dependence on initial conditions, in other words a chaotic 
+system. In the midlatitudes, baroclinic errors grow rapidly over the first 10 days of the forecast (Figure 4, solid 
+line) and start to saturate beyond this. However, in the tropics, error growth is much slower but shows little 
+sign of saturation (Figure 4, dashed line). As discussed, this means that true forecast errors in the tropics do 
+not always dominate the errors in the reference or the covariance term between the forecast error and the 
+reference error (Eq. A3, see Appendix). Also, the bias term can be much more important (Eq. A2). A 
+consequence of chaotic error growth, particularly in the extra-tropics, is that even the smallest perturbation in 
+the system can grow into a large synoptic-scale error. The EDA uses this effect to generate multiple different 
+realisations of the possible analysis using perturbed observations and a perturbed model, and even a purely 
+technical perturbation to the system can generate a similar effect (e.g. Geer, 2016).  
+

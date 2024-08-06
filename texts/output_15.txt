@@ -1,0 +1,49 @@
+Assessing the impact of observations 
+ 
+ 
+ 
+Technical Memorandum No. 916  
+ 
+ 
+ 
+15 
+Overweighting an observation type can lead to a misleadingly large FSOI for that observation type. In 
+situations where an observation type is over-weighted to the extent that it gives negative impact in an OSE, 
+FSOI may misleadingly suggest particularly large positive influence from this observation type relative to 
+others (Lupu et al., 2015). FSOI therefore requires careful analysis to avoid misinterpretation, and ideally it 
+should be used alongside OSEs. 
+In general, FSOI has a less important role at ECMWF when assessing whether a new observing system should 
+become operational, and the relevant OSEs are used instead for this decision. FSOI is used primarily for 
+diagnostic purposes. For these, either the operational database of FSOI values for each observation is available, 
+or dedicated RD experiments can be run. FSOI is not calculated by default for RD experiments. 
+3. 
+Ensemble of Data Assimilations 
+We use the EDA system in the assessment of new observations, but the EDA is primarily designed to provide 
+flow dependent uncertainty information. This section outlines the EDA method and how it is used in the main 
+applications.  
+3.1 
+Method 
+The Ensemble of Data Assimilations (EDA) (Isaksen et al., 2010; Bonavita et al., 2016) has the dual role of 
+providing flow dependent covariance estimates for the hybrid 4D-Var system, and it contributes to the 
+estimation of the initial conditions used in the ensemble forecasting system (ENS). In the EDA, each perturbed 
+ensemble member performs an independent 4D-Var analysis update (Courtier et al., 1994; Rabier et al., 2000). 
+The EDA is a variational implementation of a Monte Carlo approximation to the standard Kalman filter 
+(Houtekamer and Mitchell, 1998), also known as the perturbed observations ensemble Kalman filter (EnKF), 
+where observations in each member are perturbed according to their assumed observation error covariances. 
+3.2 
+EDA Spread: Source and reliability 
+In theory, if all sources of uncertainty in the assimilation system are accurately sampled, the analysis and 
+background covariance matrices, given as (A, B), respectively, sampled from the ensemble members are, on 
+average, unbiased estimators of the error covariances of the system. In practice, the “raw spread” calculated 
+directly from EDA members is lower than the corresponding error statistics estimated from cross validation or 
+spread-skill relationships (see Bonavita et al., 2016). This “under dispersion” of the EDA is common to 
+most/all operational ensemble data assimilation systems, and most employ methods for covariance inflation, 
+typically multiplicative or additive inflation (see review by Houtekamer and Zhang, 2016). At ECMWF, 
+however, there is no inflation of the cycling EDA members, and the focus is on improving the modelling of 
+the sources of uncertainty.  
+The “reliability” characteristics of the ECMWF EDA are thus dependent on our ability to model the sources 
+of uncertainty, including observation errors, model uncertainty, boundary and forcing term uncertainty and 
+system uncertainty (see Houtekamer and Zhang, 2016, Table 4, for a list of error sources). Observation 
+uncertainty is modelled by the perturbed observation approach that adds random perturbations with the 
+standard deviation of the assumed observation error to the observations used in each member. The model 
+

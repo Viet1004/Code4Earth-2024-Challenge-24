@@ -1,0 +1,35 @@
+Assessing the impact of observations 
+ 
+ 
+8 
+Technical Memorandum No. 916 
+ 
+2.1.1. 
+Importance of the reference 
+Since there is no perfect reference, it is good practice to verify against both observations and analyses. In the 
+research department it is common to use the statistics of background departures. Since these are calculated 
+across the global observing system, it would be hard to find a more comprehensive set of observations for 
+validation. The downside is that background departures are only routinely computed for the 12-hour forecast. 
+It also means that verification is being done in the observation space, even if that is satellite radiances or 
+bending angles, which need expertise to interpret. Direct observations of the forecast variables, such as 
+radiosonde temperature or surface pressure, can be more easily used in observational verification at all forecast 
+ranges, but these have the limitations of incomplete coverage (often dominated by highly populated areas of 
+the northern hemisphere) and the relatively large errors in the observations themselves.  
+ 
+Figure 2: Forecast error in 850 hPa relative humidity in the tropics (20°N to 20°S) as a function of 
+forecast day, computed against the operational HRES analysis (solid) or the experiment’s own 
+analysis (dashed). Against own-analysis, the apparent 0-hour forecast error is zero; 0-hour forecast 
+error against the operational analysis was estimated from earlier studies to save time (Geer et al., 
+2010). 
+Verification against analysis has the advantage of complete coverage and of being based on the statistically 
+best estimate of the atmospheric state. However, the results can be dominated by the error covariance term 
+between the errors in the forecast and the errors in the reference (see also appendix for further details). Hence 
+the choice of analysis to use as a reference is important. An extreme example of the problem is seen in the 
+humidity field in the tropics (Figure 2). At a 12-hour forecast range, the RMSE is around 40 % smaller when 
+computed against the experiment’s own analysis than when it is calculated against the operational analysis. 
+Since the 12-hour forecast is used as the background in the data assimilation, the resulting analysis is strongly 
+correlated with the 12-hour forecast. Another way to think about this is that 12-hour RMSE computed against 
+own analysis is also a measure of the size of the data assimilation increments. The effect of adding new 
+observations is often to increase the size of the increments, reduce correlations between forecast and analysis, 
+and hence to apparently increase the size of the RMSE (e.g. Bouttier and Kelly, 2001; Geer and Bauer, 2010). 
+

@@ -1,0 +1,38 @@
+Assessing the impact of observations 
+ 
+ 
+ 
+Technical Memorandum No. 916  
+ 
+ 
+ 
+21 
+The failure to achieve saturation was explained by the assumed GNSS-RO uncertainty model, where all 
+vertical and horizontal GNSS-RO error correlations were assumed to be zero. It was argued that even perfectly 
+correlated observations, with uncorrelated observation errors, will appear to provide useful information in the 
+EDA system, because the additional observations effectively reduce the random measurement errors through 
+repetition. It was also recognised that the concept of “saturation” was ambiguous, particularly when 
+assimilating observations with uncorrelated errors. For example, in the idealised scalar case shown in Figure 
+1, the standard deviation of the analysis error scales as 1/√1 + 𝑛, and this will continue to fall as more data is 
+added, albeit with a reduced rate, so “saturation” is difficult to define objectively.   
+The study concluded that there was a good case to increase the GNSS-RO numbers, but also encouraged work 
+on OSSEs to test this further. Recent GNSS-RO OSSEs by Privé et al. (2022) have now shown that the GNSS-
+RO impact does not saturate at 100,000 occultations per day in their system. The Harnisch results informed an 
+International Radio Occultation Working Group (IROWG) target of 20,000 occultations per day. Recent results 
+showing the benefits of assimilating additional GNSS-RO from both COSMIC-2 and Spire suggest it was a 
+reasonable target (Figure 7, Figure 10).   
+However, it must be acknowledged that if we reran the Harnisch study today, we would not achieve the 
+percentage reductions in spread shown in Figure 9, which are only valid for the NWP system and observation 
+usage in July-August, 2008. This is because the background EDA spread values have reduced since 2008, 
+primarily because the total number of observations assimilated has increased over the period (although other 
+improvements to the NWP system will also have an impact). In 2008, the number of observations assimilated 
+per day was below 10 million, but by 2020 it exceeded 30 million. The “no RO” 12-hour temperature spread 
+values at 100 hPa are now around 0.15-0.2 K lower than in the 2008, which is a ~20-30 % spread reduction. 
+We have also increased the assumed GNSS-RO error statistics used to assimilate the data. Consequently, the 
+additional GNSS-RO measurements will have a lower information content today, in both an absolute and 
+relative sense, because other observations are providing more information and GNSS-RO slightly less. This 
+highlights potential problems that will arise if we try to compare spread reductions from different EDA 
+experiments. The information content of the new observations will depend on the quality of the NWP system, 
+resolution and observations used in the control experiment, and this must be common in any comparisons.   
+ 
+

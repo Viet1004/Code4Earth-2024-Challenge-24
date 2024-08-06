@@ -1,0 +1,46 @@
+Assessing the impact of observations 
+ 
+ 
+20 
+Technical Memorandum No. 916 
+ 
+4.2 
+Some previous EDA studies 
+4.2.1. 
+Early Aeolus studies  
+The application of EDA techniques for assessing new observing systems was introduced by Tan et al. (2007) 
+to estimate the potential impact of Aeolus line of sight (LOS) wind profile information in the ECMWF system. 
+Their key insight was that the EDA computations – unlike OSSEs – could be performed with a mixture of both 
+real and simulated measurements. This means that only the new observing system needed to be simulated.  
+It was recognised that OSSEs can potentially provide an estimate of the “absolute observation impact”, because 
+the simulated truth is known from the nature run (NR).  In contrast, they noted that estimating the absolute 
+impact of an observing system from the EDA computations would require careful calibration. However, it was 
+argued that when comparing two observing systems, absolute calibration is unimportant, as it simplifies to a 
+common rescaling of the spread values.  
+The study mainly focussed on the impact on analyses and short-range forecasts, but showed a zonal wind 
+spread at day-5. They emphasised potentially large impact in the tropics. The possible reasons for the EDA 
+under dispersion were discussed, where it was noted the model error was not explicitly accounted for in the 
+EDA at the time, and that spatial correlations of observation errors were only included when assimilating 
+SATOB AMV wind information.  
+It is difficult to compare EDA results from 2007 (investigating a period in 2003) with recent OSEs directly, 
+but Rennie et al. (2021) have subsequently demonstrated significant impacts assimilating Aeolus 
+measurements in the ECMWF system. The latest extended experiments, now spanning over 2 years using 
+reprocessed Aeolus data, show statistically significant improvements in the northern/southern hemisphere 
+Z500 out to day 4, and improved tropical winds out to day 8-9 (e.g., 200, 100 hPa).  
+4.2.2. 
+GNSS-RO impact with observation number 
+Harnisch et al. (2013) applied the EDA method to estimate the impact of increasing the number of GNSS-RO 
+measurements. The question at that time was whether there would be additional benefit from increasing the 
+measurement numbers above the present levels of ~2500 occultations per day. Poli et al. (2008) had already 
+demonstrated that the GNSS-RO impact on humidity and geopotential forecast errors was reduced when only 
+half of the available GNSS-RO measurements were assimilated, but it was not clear how the impact might 
+scale beyond the current numbers, or where “saturation” of impact might occur.  
+The EDA experiments covered the period July-August, 2008, and were performed for the ~2500 real GNSS-
+RO observations per day available at that time, and 2000, 4000, 8000, 16000, 32000, 64000 and 128000 
+simulated GNSS-RO measurements per day. 
+The large range of the GNSS-RO numbers was intended to investigate the possible onset of saturation of 
+GNSS-RO impact, but the key result from the study was that the EDA spread values continued to reduce, even 
+when moving from 64,000 to 128,000 simulated observations (Figure 9). (Note that the economic case for 
+extending the GNSS-RO numbers to 128,000, versus other possible non GNSS-RO changes to GOS, was not 
+considered or discussed in this work.) 
+

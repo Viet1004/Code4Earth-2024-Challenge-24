@@ -1,0 +1,36 @@
+Assessing the impact of observations 
+ 
+ 
+ 
+Technical Memorandum No. 916  
+ 
+ 
+ 
+35 
+ 
+Figure 19: As Figure 11 but showing day-5 EDA temperature spread reductions for real (red line) 
+and simulated (green line) COSMIC-2 measurements. This includes a revised error model for 
+simulated data (black line), which gives better consistency with the real data for 12 hr spread values.  
+An open question is whether the day-5 spread estimates provide useful additional information, given that we 
+know the EDA alone does not fully characterise the forecast error statistics in the medium-range, and that 
+singular vector-based perturbations are needed to obtain a reliable ensemble forecast (Section 3.3). Also, to 
+obtain statistically significant spread differences, we would probably need to run longer experiments, which 
+would increase the cost of the EDA experimentation.   
+4.6 
+New/planned activities  
+Two new EDA studies started in June 2022, through a EUMETSAT-funded activity. In these studies, we will 
+consider two potential future missions, namely the EPS-Sterna constellation and a future Doppler Wind Lidar 
+as Aeolus follow-on. A new aspect is that both missions will be investigated in a consistent way, over the same 
+period, using the same baseline observing system of real observations. This will allow cross-comparisons of 
+the impact and investigations into the complementarity of these missions. We have not previously performed 
+such comparisons of different observing systems with the EDA-method. Given the potential differences in 
+scaling factors when translating EDA spread results into forecast error reductions noted earlier, such 
+comparisons will require some care.  
+EPS-Sterna Constellation 
+The EPS-Sterna constellation consists of a fleet of small satellites with cross-track scanning MW instruments, 
+with temperature and humidity sounding capabilities in the 50, 183, and 325 GHz bands. It is intended to 
+complement the 3-orbit CGMS baseline, to provide better temporal sampling for MW sounding. The 
+requirements for the constellation are currently being refined by EUMETSAT in collaboration with ESA, users 
+and industry, for instance, in terms of the number of orbits covered, satellites flown, and expected instrument 
+performance.  
+

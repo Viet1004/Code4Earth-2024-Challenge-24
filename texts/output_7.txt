@@ -1,0 +1,46 @@
+Assessing the impact of observations 
+ 
+ 
+ 
+Technical Memorandum No. 916  
+ 
+ 
+ 
+7 
+effectively when making small corrections in a more linear regime that has been found by using other 
+components of the observing system. Other synergies between observations, such as the combination of limb 
+(e.g. GNSS-RO) and nadir (e.g. radiosonde or sounder) measurements, may also be important. Assimilation 
+experiments performed outside the main operational centres can also resemble a low baseline approach, since 
+the experimentation may not include the full observing system and may not have access to a state-of-the art 
+assimilation framework. For these and many other reasons, low baseline experimentation can be unrealistic, 
+and it is most informative to measure the impact of an observing system in the context of all other observations 
+in the best possible assimilation framework.  
+A potentially problematic approach used in some studies is to add observing systems progressively. This makes 
+the impact of each observing system dependent on the order in which it was added to the system, as is obvious 
+from Figure 1. The main context in which this is acceptable is in measuring the saturation of errors when 
+progressively adding a set of interchangeable observing systems (e.g. Duncan et al., 2021). 
+Apart from the configuration of the experiments, there are many other challenges in interpreting OSEs. First 
+is measuring the skill of the forecast or the quality of the analysis. It is hard to know how to trade off impacts 
+at different forecast ranges, in different areas, or on different variables. Statistics can be aggregated to a single 
+number (such as the Met Office NWP index) or a visual table (such as the ECMWF scorecard). However, it is 
+important to understand the details, but these can amount to thousands of different plots. An alternative strategy 
+is to concentrate on a single representative measure, such as the error in the 500 hPa geopotential height (Z500) 
+in the medium-range. Outside the tropics the 500 hPa geopotential height measures the fundamental target of 
+medium-range forecasting, which is the synoptic situation; verification of other fields such as temperatures 
+and winds often give very similar results (Geer, 2016). Section 2.1.3 will discuss this further.  
+A second issue is finding a reference against which to measure the errors, given that the truth is not available. 
+By definition the operational analysis using the full observing system is statistically the best estimate of the 
+atmospheric state. However, using this to verify a forecast can be problematic due to the error correlations 
+between analyses and forecasts. Verification ‘against observations’ sounds like a good thing but it means 
+verifying against a partial subset of observations with random errors that are much larger than in the analysis, 
+with more limited coverage, and with the systematic errors characteristic of that observation type. Third, the 
+weather is a chaotic dynamical system in which small perturbations can grow nonlinearly into large errors in 
+the subsequent forecasts. This makes it challenging to establish statistical significance, it means that 
+experimental case studies (such as a single tropical cyclone) can be unreliable guides to true performance, and 
+it complicates the link between the quality of the analysis and that of the subsequent forecasts, given that much 
+of the error growth is driven from very localised areas.  
+An OSE is still the gold standard for understanding the impact of changes in the observing system, as long as 
+it is made in the context of the full observing system and uses a state-of-the-art assimilation system. However, 
+it is important to recognise the challenges that are described in more detail in the following subsections. (Some 
+mathematical details on measuring analysis quality and forecast skill are given in the Appendix.)   
+

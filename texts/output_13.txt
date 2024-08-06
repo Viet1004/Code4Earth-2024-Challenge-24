@@ -1,0 +1,36 @@
+Assessing the impact of observations 
+ 
+ 
+ 
+Technical Memorandum No. 916  
+ 
+ 
+ 
+13 
+Since FSOI provides an impact measure for individual observations, it can be aggregated in any way, and this 
+is a particularly attractive feature. It allows affordable detailed analyses for multiple observation types, and 
+also subsets of observations, such as individual stations or channels of an instrument, specific geographical 
+regions, observed variables, etc. Results are typically reported either as total FSOI for a particular observation 
+set, or as FSOI per observation. Some aggregation is needed, because individual values are noisy. In this 
+context, FSOI suggests that just over 50% of the observations have positive impact, reflecting the statistical 
+nature of FSOI (Lorenc and Marriott, 2014). As a result, a thorough interpretation of FSOI results should 
+include statistical significance testing. 
+FSOI can be particularly useful for assessing the value of remote observations which are considered 
+meteorologically important, but are difficult to assess in OSEs, as the size of the impact signal will be 
+comparatively small and localised. For example, in support of the WMO Systematic Observations Financing 
+Facility (SOFF https://public.wmo.int/en/our-mandate/how-we-do-it/development-partnerships/Innovating-
+finance), we showed that the Synop FSOI per datum in the Pacific Islands is more than 4 times the impact per 
+datum achieved in the US or Europe (Figure 6), and this is useful information to justify continued investment 
+in such observations. Of course, high density observations over Europe have value for short-range European 
+forecasts, and more observations just upstream, over the Eastern North Atlantic, would be very useful. 
+ 
+Figure 6: FSOI per datum (J/kg, positive values denote better forecasts) for SYNOP stations in 2020 
+- various regions (CONUS denotes the Contiguous USA). 
+FSOI also enables us to monitor and summarise how the contributions of different observing systems evolve 
+over time. For example, Figure 7 shows such a plot for 2020 to June 2022. There are several features of interest: 
+a) the increase of GNSS-RO impact (brown) with the implementation of COSMIC-2 assimilation in March 
+2020 and Spire data in May - removed at the end of September (the Spire data were made temporarily available 
+because of the Covid pandemic), b) the drop in aircraft numbers and impact (cyan) in March 2020 followed 
+by a slow recovery (see Ingleby et al., 2021), c) the impact of Aeolus wind data (yellow dashed line, Rennie 
+et al., 2021), which was about 4% of the total when introduced in January 2020, which is considered very large 
+

@@ -1,0 +1,48 @@
+Assessing the impact of observations 
+ 
+ 
+ 
+Technical Memorandum No. 916  
+ 
+ 
+ 
+17 
+3.3 
+Use of EDA in Ensemble Forecasts 
+Buizza et al. (2008) examined ensemble initial conditions based on the EDA. They found that initial 
+perturbations based solely on the EDA did not generate sufficient ensemble spread to obtain reliable ensemble 
+forecasts. Their study also looked at the combination of initial perturbations based on the EDA and 
+perturbations based on the leading initial singular vectors (SV), which led to a larger ensemble spread that 
+better matched the growth of the error of the ensemble mean. The combination of EDA and singular vector 
+perturbations has been used operationally since 2010, and the amplitudes of the singular vector perturbations 
+have not changed significantly since 2011. The need for this kind of inflation may disappear with future 
+improvements in the EDA reliability, but it currently has implications for using the EDA to estimate the 
+medium-range impact of new observations (Section 4.5).  
+4. 
+Using the EDA to estimate the impact of new observing systems 
+As discussed in Section 3, the cycling EDA system is designed to provide flow dependent covariance 
+information. Currently, like most operational ensemble-based DA systems, it is under dispersive, so in practice 
+the “raw” covariance matrices have to be inflated for operational use in the 4D-Var, and singular vectors are 
+still required in combination with the EDA when initialising the ensemble forecasts. 
+In this section, we outline how the EDA is used to assess the impact of new observing systems and provide 
+examples from previous and ongoing work. In this application, we are investigating how the new simulated 
+observations change the estimates of the analysis and short-range forecast error statistics provided by the EDA 
+These changes in the error statistics are usually averaged over both large spatial scales and over a period of 
+around a month, so it is a large scale, statistical measure of the observation impact. The EDA method does not 
+provide a useful framework for assessing how the new observations improve forecasts of specific, high impact 
+weather events.  
+Ideally, we would like to estimate the impact of the observations on the medium-range forecasts, but the EDA 
+observation studies usually focus on the analysis and short-range, because the observation impact is clearest 
+there. Currently, the EDA method is not ideal for the assessment of medium-range impact. It can be extended 
+to longer forecast ranges (Section 4.5), but the interpretation of these results is more complicated, because the 
+singular vectors needed in the ensemble system to achieve reliability are not included in the EDA.  
+4.1 
+Interpretation, link to OSSEs and simulation    
+4.1.1. 
+Information content interpretation 
+The use of the EDA for assessing new observing systems can be interpreted as a 4D-Var information content 
+approach, analogous to 1D-Var studies (e.g. Rodgers, 2000). It provides a theoretical estimate of how the 
+(cycling) analysis and short-range forecast error statistics (A and B, respectively) should respond to 
+assimilating a new set of observations. In the linear limit, these changes in the error statistics are dependent on 
+the assumed observation error covariance, R, rather than the values of the new observations, y.  
+

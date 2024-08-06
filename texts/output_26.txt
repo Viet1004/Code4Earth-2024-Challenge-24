@@ -1,0 +1,33 @@
+Assessing the impact of observations 
+ 
+ 
+26 
+Technical Memorandum No. 916 
+ 
+broader vertical scales more accurately than at the fine vertical scales, and this may be one explanation for the 
+scaling factors observed here. However, this interpretation still requires further investigation. 
+The EDA only provides an estimate of the random error statistics, but the GNSS-RO measurements also have 
+an additional role as anchor measurements within the NWP system. It is difficult to isolate the additional value 
+of this anchoring in the EDA computations, but it may improve the radiosonde temperature departure statistics 
+by correcting spatially varying biases. Figure 13 illustrates the size and spatial variability of the mean 
+temperature analysis differences at 100 hPa, comparing all RO minus no RO. These changes in the mean state 
+are large when compared to the changes in the EDA spread values.  
+ 
+Figure 13: Mean temperature analysis difference (K) at 100 hPa. ALL RO, including COSMIC-2 
+and Spire, minus no RO. 
+4.3.3. 
+Summary of recent GNSS-RO work 
+The assimilation of real COSMIC-2 and Spire observations has a clear positive impact. Importantly, we have 
+found that real and simulated COSMIC-2 observations have a similar impact on the EDA spread. The 
+improvements in radiosonde departure statistics indicate that the changes in the EDA spread underestimates 
+the absolute impact of the GNSS-RO measurements in the lower/middle stratosphere. The global scaling factor 
+used to inflate the raw EDA spread values for operational applications does not resolve this problem, and 
+further work is required (See also Figure 18).  
+4.4 
+Constellations of small satellites carrying microwave sounders 
+The most recent application of the EDA-method is to estimate the expected impact from potential future 
+constellations of small satellites carrying microwave (MW) sounding instruments, as part of an ESA-funded 
+study (Lean et al., 2021a, b). The aim of such a constellation is to provide higher temporal sampling than 
+currently available. This is expected to be beneficial to observe fast-evolving cloud and humidity features, but 
+also to reduce the effective observation noise through higher measurement numbers. The continued benefit of 
+

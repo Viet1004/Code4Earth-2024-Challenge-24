@@ -1,0 +1,45 @@
+Assessing the impact of observations 
+ 
+ 
+ 
+Technical Memorandum No. 916  
+ 
+ 
+ 
+33 
+data were thinned spatially, selecting only one observation within a 110 km distance per half-hourly time-slots. 
+This is to limit the effect of spatially correlated observation errors which we can currently not account for 
+during the assimilation. In addition, data from all satellites of the hypothetical future constellation were thinned 
+together (following the AMSU-A approach), resulting in many observations being thinned out at higher 
+latitudes where there is most overlap. The thinning practice is the reason why the increase in the number of 
+data points shown in Figure 16 for the different constellations is not as large as might be expected given the 
+increase in the number of satellites. The effect of this was particularly severe as the phasing of the satellites in 
+the small-satellite constellations was not optimised to avoid this.  
+To investigate the role of thinning all satellites of the constellation together, we also ran a pair of EDA 
+sensitivity experiments in which we assimilated the largest, Polar++ constellation with the satellites spatially 
+thinned separately rather than all together. This most extreme point in the number of observations in Figure 16 
+suggests that it is possible to approach a point where the benefit from additional measurements slows 
+considerably (see “Polar++ RT”). Note, however, that the additional data here comes from observing a similar 
+location at a similar time, and hence the only mechanism to provide further information is effective noise 
+reduction, rather than the observation of temporally evolving structures. This likely explains at least partly the 
+lack of further spread decrease for the humidity-only scenario, as instrument noise is not considered a limiting 
+factor for these observations. The comparison also highlights the sensitivity of the EDA results to practical 
+assimilation choices and assumptions on error characteristics, an important element to keep in mind when 
+interpreting the results. 
+4.4.3. 
+Comparing EDA spread reductions and OSE results 
+The four EDA experiments with real observations also allowed a comparison of the EDA spread reductions 
+and forecast error reductions in a similar way as presented in Section 4.3.2 for the GNSS-RO work. The 
+measure of short-range forecast error was again the variance of background departures for radiosondes. As for 
+the GNSS-RO results, in general there is a trend for increasing variance of the radiosonde O-B with variance 
+of the EDA spread such as in the examples shown in Figure 18. While the low number of data points limits 
+interpretation, many levels/regions show a broadly linear relationship, though this is less clear for the 
+troposphere in the tropics, where the signal in the EDA spread reduction is weaker. The broadly linear 
+relationship again highlights that there is a reasonable agreement between the EDA and the OSEs in these 
+areas, at least for relative forecast impacts. Nevertheless, the slope and intercepts of the regression lines vary 
+between pressure levels and variables within the MW study, with slopes for temperature in the range of 1.1-
+2.2 over the Northern Hemisphere extra-tropics and 1-7 elsewhere. Results for wind are broadly similar. As 
+discussed in Section 4.3.2, the recognised under-spread of the EDA is likely a factor why the forecast error 
+reduction measured by radiosondes is larger than the EDA spread reduction, as indicated by slope-values larger 
+than one. 
+

@@ -1,0 +1,34 @@
+Assessing the impact of observations 
+ 
+ 
+ 
+Technical Memorandum No. 916  
+ 
+ 
+ 
+31 
+4.4.2. 
+EDA spread results for different constellation choices  
+Figure 16 illustrates some of the key results in terms of the EDA spread reduction for the constellations 
+considered as a function of the number of sounding locations assimilated. Reductions are shown relative to a 
+system in which all MW sounding data were denied, but otherwise the full real observing system was used. 
+The data point furthest to the left represents the Metop/JPSS baseline using real data. The next two datapoints 
+depict the spread reduction resulting from adding three existing MW sounders to this baseline (Metop/JPSS+), 
+either with humidity-sounding capabilities only (red) or with temperature and humidity sounding (black). The 
+remaining datapoints show spread reductions from adding instead simulated data from the potential future 
+constellations considered, again either with humidity-sounding (red) or temperature- and humidity-sounding 
+capabilities (black). The trend of the data points from adding simulated data extends smoothly from those using 
+only real observations. This is an important and very reassuring result which adds further confidence in the 
+simulations. 
+ 
+Figure 16: Percentage EDA spread reductions with increasing observation numbers for geopotential 
+height at 500 hPa from a baseline with no MW sounder data for all constellation options and 
+baselines. Black and red symbols indicate respectively the addition of temperature and humidity 
+sounding channels or humidity channels only to the Metop/JPSS baseline. Different symbols denote 
+the different simulated data scenarios or the use of real MW data where the additional “Polar++ 
+RT” refers to the reduced thinning sensitivity experiment (see main text). Data are from the Northern 
+Hemisphere (latitude > 20°) over the period 8-28 June 2018. 
+Some key points are readily apparent from Figure 16, providing relevant guidance for the constellation design:  
+1. There is continued benefit from adding MW sounding data, within the range covered, and even the 
+smallest constellation considered (“Polar”, ie 8 satellites in 4 orbital planes) brings sizeable 
+
